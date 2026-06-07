@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Boise Pulse — 2026-04-24</title>
+<meta name="description" content="An editorial magazine for Boise, Idaho — curated Tue / Thu / Fri.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200..900;1,9..144,200..900&family=Inter:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+:root {
+  /* The Boise Pulse — dusk-over-the-foothills palette */
+  --ink:    #0B1E33;  /* deep night-sky navy — chrome + dark spreads */
+  --paper:  #F4EFE6;  /* sandstone / newsprint cream */
+  --accent: #C24A26;  /* Boise sunset terracotta — primary accent */
+  --gold:   #E0A23C;  /* golden-hour amber — featured accent */
+  --sky:    #6FA8D6;  /* daytime / Basque blue — cool accent */
+  --sage:   #5E7A5A;  /* foothills sage — "good" status, calm accent */
+  --text:   #1A1A1A;  /* body ink on paper */
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #1A1A1A;
+    background: #0B1E33;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.fraunces { font-family: 'Fraunces', Georgia, serif; }
+.inter { font-family: 'Inter', system-ui, sans-serif; }
+.mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+.spread {
+    min-height: 100vh;
+    padding: clamp(2rem, 6vw, 6rem) clamp(1.5rem, 6vw, 6rem);
+    position: relative;
+    overflow: hidden;
+}
+.spread-inner { max-width: 1400px; margin: 0 auto; height: 100%; }
+.stamp {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 0.85rem;
+}
+.topic-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+.byline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    opacity: 0.75;
+}
+.source-line {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    opacity: 0.6;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid currentColor;
+}
+.recurring-bit {
+    border: 1.5px solid currentColor;
+    padding: 1.25rem 1.5rem;
+    margin: 1.75rem 0;
+}
+.recurring-bit .label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.78rem;
+    margin-bottom: 0.4rem;
+    opacity: 0.85;
+}
+.recurring-bit .content {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+    line-height: 1.45;
+}
+@media (max-width: 720px) {
+    body { font-size: 19px; }
+    .spread { padding: 3rem 1.25rem; }
+}
+@keyframes twinkle { 0%,100% { opacity: 0.2 } 50% { opacity: 1 } }
+@keyframes blink   { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <style>
+    .masthead { background:#0B1E33; color:#F4EFE6; padding: clamp(2.25rem,4vw,4.25rem)
+        clamp(1.5rem,6vw,6rem); border-bottom:3px solid #C24A26; text-align:center;
+        position:relative; overflow:hidden; }
+    .masthead::before { content:""; position:absolute; inset:0; opacity:0.05; pointer-events:none;
+        background:repeating-linear-gradient(0deg, transparent 0 17px, #6FA8D6 17px 18px); }
+    .masthead .dateline { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+        letter-spacing:0.32em; text-transform:uppercase; color:#6FA8D6; font-size:0.74rem;
+        position:relative; }
+    .masthead .title { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(2.6rem, 9vw, 7.5rem); line-height:0.92; margin-top:0.85rem;
+        letter-spacing:-0.035em; position:relative; }
+    .masthead .title .accent { color:#C24A26; }
+    .masthead .pulse-line { display:block; width:min(440px,82%); height:auto; margin:0.55rem auto 0;
+        position:relative; }
+    .masthead .tagline { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        color:#D9CBB3; font-size:clamp(0.98rem,1.7vw,1.2rem); max-width:48ch; margin:1.35rem auto 0;
+        line-height:1.5; position:relative; }
+    .masthead .issue-stamp { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+        letter-spacing:0.3em; text-transform:uppercase; color:#E0A23C; font-size:0.7rem;
+        margin-top:1.35rem; padding:0.4rem 1.05rem; border:1px solid rgba(224,162,60,0.5);
+        display:inline-block; position:relative; }
+  </style>
+  <div class="dateline">Friday · April 24, 2026</div>
+  <h1 class="title">The Boise <span class="accent">Pulse</span></h1>
+  <svg class="pulse-line" viewBox="0 0 600 36" fill="none" aria-hidden="true">
+    <polyline points="0,18 250,18 262,18 272,10 283,26 293,3 303,31 313,18 326,18 600,18"
+      stroke="#C24A26" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <div class="tagline">The Treasure Valley, three mornings a week — written for the people who live here.</div>
+  <div class="issue-stamp">QUICK HITS  ·  FRIDAY</div>
+</header>
+
+<section class="vitals"><style>
+.vitals { background:#0B1E33; border-bottom:3px solid #C24A26; }
+.vitals .v-head { display:flex; align-items:center; justify-content:space-between;
+    gap:1rem; padding: clamp(1.1rem,2.2vw,1.6rem) clamp(1.25rem,5vw,4rem) 0.85rem; }
+.vitals .v-head-l { display:flex; align-items:center; gap:0.7rem; }
+.vitals .v-heart { color:#C24A26; font-size:1.35rem; line-height:1; }
+.vitals .v-title { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+    text-transform:uppercase; letter-spacing:0.26em; font-size:0.82rem; color:#E0A23C; }
+.vitals .v-tag { font-family:'Fraunces',serif; font-style:italic; color:#9FBEDA;
+    font-size:0.92rem; margin-top:0.15rem; }
+.vitals .v-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
+    gap:0.7rem; padding: 0 clamp(1.25rem,5vw,4rem) clamp(1.1rem,2.2vw,1.5rem); }
+.vitals .v-cell { padding:0.85rem 1rem 0.95rem; }
+.vitals .v-top { display:flex; align-items:center; gap:0.5rem; margin-bottom:0.45rem; }
+.vitals .v-ic { font-size:1.05rem; line-height:1; }
+.vitals .v-lab { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+    text-transform:uppercase; letter-spacing:0.12em; font-size:0.72rem; opacity:0.92; }
+.vitals .v-dot { width:9px; height:9px; border-radius:50%; margin-left:auto; flex-shrink:0; }
+.vitals .v-main { font-family:'Fraunces',serif; font-weight:700; color:#F4EFE6;
+    font-size:1.45rem; line-height:1.05; letter-spacing:-0.01em; }
+.vitals .v-sub { font-family:'JetBrains Mono',ui-monospace,monospace; font-size:0.74rem;
+    line-height:1.35; margin-top:0.3rem; opacity:0.92; }
+.vitals .v-advisory { display:flex; gap:0.7rem; align-items:flex-start;
+    padding: 0.9rem clamp(1.25rem,5vw,4rem); }
+.vitals .v-adv-ic { font-size:1.05rem; font-weight:700; line-height:1.3; flex-shrink:0; }
+.vitals .v-adv-tx { font-family:'Fraunces',serif; font-style:italic; font-size:1rem; line-height:1.5; }
+@media (max-width:520px){ .vitals .v-grid { grid-template-columns:repeat(2,1fr); } }
+</style><div class="v-head"><div class="v-head-l"><span class="v-heart">♥</span><div><div class="v-title">The Vitals</div><div class="v-tag">What's actually happening outside</div></div></div></div><div class="v-grid"><div class="v-cell" style="background:#10283F;border-left:3px solid #6FA8D6;"><div class="v-top"><span class="v-ic">🌡️</span><span class="v-lab" style="color:#C3DAEF;">Weather</span><span class="v-dot" style="background:#6FA8D6;"></span></div><div class="v-main">72°F</div><div class="v-sub" style="color:#C3DAEF;">illustrative — live via research</div></div><div class="v-cell" style="background:#382B12;border-left:3px solid #E0A23C;"><div class="v-top"><span class="v-ic">🥾</span><span class="v-lab" style="color:#F1DBAB;">Foothills Trails</span><span class="v-dot" style="background:#E0A23C;"></span></div><div class="v-main">Soft</div><div class="v-sub" style="color:#F1DBAB;">mud below 4,000 ft</div></div><div class="v-cell" style="background:#10283F;border-left:3px solid #6FA8D6;"><div class="v-top"><span class="v-ic">🌊</span><span class="v-lab" style="color:#C3DAEF;">Boise River</span><span class="v-dot" style="background:#6FA8D6;"></span></div><div class="v-main">1,140 cfs</div><div class="v-sub" style="color:#C3DAEF;">44°F · runoff beginning</div></div><div class="v-cell" style="background:#382B12;border-left:3px solid #E0A23C;"><div class="v-top"><span class="v-ic">🤧</span><span class="v-lab" style="color:#F1DBAB;">Pollen</span><span class="v-dot" style="background:#E0A23C;"></span></div><div class="v-main">Moderate</div><div class="v-sub" style="color:#F1DBAB;">juniper + tree season</div></div><div class="v-cell" style="background:#16301F;border-left:3px solid #5E9E6B;"><div class="v-top"><span class="v-ic">💨</span><span class="v-lab" style="color:#C6E7CE;">Air Quality</span><span class="v-dot" style="background:#5E9E6B;"></span></div><div class="v-main">AQI 38</div><div class="v-sub" style="color:#C6E7CE;">good · clear visibility</div></div><div class="v-cell" style="background:#10283F;border-left:3px solid #6FA8D6;"><div class="v-top"><span class="v-ic">🌅</span><span class="v-lab" style="color:#C3DAEF;">Daylight</span><span class="v-dot" style="background:#6FA8D6;"></span></div><div class="v-main">8:14 PM</div><div class="v-sub" style="color:#C3DAEF;">sunrise 7:02 AM</div></div></div><div class="v-advisory" style="background:#10283F;border-top:1px solid #6FA8D6;"><span class="v-adv-ic" style="color:#6FA8D6;">ⓘ</span><span class="v-adv-tx" style="color:#D6E8F6;">Trails firm up by midday. Give the upper foothills a morning to dry after rain before you chew them up.</span></div></section>
+<main>
+
+<section class="spread spread-todays-edition">
+  <style>
+    .spread-todays-edition { background:#F7F2E8; color:#1A1A1A;
+        min-height:auto; padding: clamp(2.5rem,6vw,5rem) clamp(1.5rem,6vw,6rem);
+        border-bottom: 2px solid rgba(139,30,30,0.12); }
+    .spread-todays-edition .panel { max-width: 62ch; margin: 0 auto;
+        border-top: 1px solid #8B1E1E; border-bottom: 1px solid #8B1E1E;
+        padding: 2.5rem 0 1.75rem; position:relative; }
+    .spread-todays-edition .stamp { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.35em; color:#8B1E1E; font-size:0.78rem;
+        text-align:center; margin-bottom:0.55rem; }
+    .spread-todays-edition .dateline { font-family:'Inter',sans-serif; font-weight:700;
+        text-transform:uppercase; letter-spacing:0.22em; color:#6A6A6A; font-size:0.74rem;
+        text-align:center; margin-bottom:2rem; }
+    .spread-todays-edition .body { font-family:'Fraunces',serif; font-weight:400;
+        font-size: clamp(1.08rem, 1.6vw, 1.28rem); line-height:1.6; }
+    .spread-todays-edition .body p { margin-bottom:1.1rem; }
+    .spread-todays-edition .body strong { font-weight:700; color:#8B1E1E; }
+    .spread-todays-edition .body em { font-style:italic; color:#2B1F0F; }
+    .spread-todays-edition .closer { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:400; font-size: clamp(1.2rem, 1.9vw, 1.5rem); line-height:1.4;
+        text-align:center; margin:1.75rem 0 1.25rem; color:#2B1F0F;
+        border-top: 1px solid rgba(139,30,30,0.2); padding-top: 1.5rem; }
+    .spread-todays-edition .sig { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:700; font-size: 1.35rem; text-align:right; color:#8B1E1E;
+        margin-top:1rem; letter-spacing:0.02em; }
+    .spread-todays-edition .sig-meta { font-family:'Inter',sans-serif; font-weight:700;
+        text-transform:uppercase; letter-spacing:0.22em; color:#6A6A6A; font-size:0.72rem;
+        text-align:right; margin-top:0.35rem; }
+  </style>
+  <div class="spread-inner">
+    <div class="panel">
+      <div class="stamp">Today's Edition</div>
+      
+      <div class="body"><p>This Friday arrived with a record already on the books. Boise just logged its wettest April in over a century, a freeze watch is set for Saturday before sunrise, and the city is simultaneously painting flagpoles rainbow and arguing about who gets to fix potholes. That is a lot of civic weather for one commute.</p><p>Read Pete first. The freeze watch is real, it has a clock on it — 4 AM to 9 AM Saturday — and if you planted anything in March you need that information right now. Then read Dani, because the two bills sitting on Governor Little&#x27;s desk will change how Boise runs its roads and its budget in ways most people haven&#x27;t caught up to yet.</p><p>The Boise of this weekend is both record-breaking and bracing for a hard morning.</p></div>
+      <div class="closer">A record-breaking April, a freeze watch, and a city painting its own flagpoles — Boise is having a week.</div>
+      <div class="sig">— M.H.</div>
+      <div class="sig-meta">Margaret Halstead, Editor</div>
+    </div>
+  </div>
+</section>
+
+
+<section class="spread spread-hero" style="background:#F4EFE6;color:#1A1A1A;">
+  <style>
+    .spread-hero .headline { font-family:'Fraunces',serif; font-weight:900; font-style:italic;
+        font-size: clamp(3rem, 9vw, 9rem); line-height: 0.95; letter-spacing: -0.03em; }
+    .spread-hero .deck { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.4rem, 2.4vw, 2rem); margin-top: 1.25rem; max-width: 60ch; color:#333; }
+    .spread-hero .grid { display:grid; grid-template-columns: 2fr 1fr; gap:4rem; margin-top:3rem; }
+    .spread-hero .pull { font-family:'Fraunces',serif; font-style:italic; font-weight:500;
+        font-size: clamp(1.6rem, 2.6vw, 2.4rem); color:#C24A26; border-left:3px solid #C24A26;
+        padding-left:1.25rem; line-height:1.3; }
+    .spread-hero .rule { height:1px; background:#C24A26; margin:1.5rem 0; }
+    .spread-hero p { margin-bottom: 1.25rem; }
+    @media (max-width: 900px) { .spread-hero .grid { grid-template-columns:1fr; } }
+  </style>
+  <div class="spread-inner">
+    <div class="topic-label" style="color:#C24A26;">THE BENCH</div>
+    <h1 class="headline">The last open rehearsal before Pac-12 opens for real</h1>
+    <div class="rule"></div>
+    <div class="deck">Saturday&#x27;s Spring Game is BSU&#x27;s final public audition — and the real competition isn&#x27;t at quarterback.</div>
+    <div class="grid">
+      <div><p>The Lede: Maddux Madsen owns QB1. The Spring Game tomorrow is about everything below him.</p><p>Warmups at Albertsons Stadium begin at 1:30 PM Saturday. Kickoff at 2:10 PM MDT. Blue versus Orange, modified scoring for explosive plays — runs of 12-plus yards, passes of 16-plus — and a defense that has six starters to replace, four of them in the secondary. That is the honest shape of this roster heading into the Pac-12 era, which officially begins July 1. Spencer Danielson signed his extension through 2030 on April 20, so at least the anchor holds.</p><p>The storyline that matters most is the offensive line. Kage Casey anchored that left tackle spot for years. Tyler Ethridge arrived from Colorado State-Pueblo — a D2 program — and Danielson said publicly that Ethridge has &quot;immersed himself&quot; in the team&#x27;s culture and is performing at a high level. If Ethridge holds the job through fall camp, it validates how BSU scouts outside the Power conference pipeline. The same experiment runs on defense: Mikaio Edward transferred from Central Washington and is the litmus test for whether cross-division recruiting holds up when the opposition gets bigger.</p><p>Of the 18 transfers integrated this spring, many exist to patch the 11 departed starters. Jason Steele and Zander Esty are competing at center now that Mason Randolph is gone. Dylan Riley will get looks in the backfield. Jayden Virgin-Morgan&#x27;s daily edge battles with Matt Wagner were called &quot;some of the most competitive repetitions witnessed on the West Coast this spring&quot; by Danielson — which, if you&#x27;re keeping score, means the defense might have its identity before the offense settles its interior. And Rasean Jones, the true freshman receiver Danielson called a &quot;football guy&quot; with a &quot;bright&quot; future on The Blue, is one to track when the ball moves fast.</p><p>The Treasure Valley subplot: Zeke Martinez, true freshman out of Meridian, generating real buzz as the backup with a high ceiling. Max Cutforth, Nampa product, is his competition. Two local kids competing for the same job, on the blue turf that turns 40 years old this weekend. That is the kind of number that makes a Spring Game feel like more than a scrimmage.</p></div>
+      <div>
+        <div class="pull">Six defensive starters to replace, four of them in the secondary — the Pac-12 era starts with real questions.</div>
+        <div class="byline">By Kelsey Rowe · The Bench</div>
+      </div>
+    </div>
+    <div class="source-line">Source · Broncosports.com, SI.com BSU beat, April 12 post-scrimmage press availability</div>
+  </div>
+</section>
+
+
+<section class="spread spread-rose">
+  <style>
+    .spread-rose { background:#F8D3D0; color:#2B0A0A; position:relative; }
+    .spread-rose .stamp-svg { position:absolute; top:2rem; right:2rem; transform: rotate(12deg);
+        opacity:0.95; }
+    .spread-rose .headline { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(3rem, 8vw, 7rem); line-height:0.92; letter-spacing:-0.035em;
+        max-width:18ch; margin-top:1rem; }
+    .spread-rose .deck { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.3rem, 2vw, 1.8rem); margin-top:1rem; max-width:60ch; color:#4a1414; }
+    .spread-rose .body { max-width:42rem; margin-top:2rem; font-size:1.05rem; line-height:1.65; }
+    .spread-rose p { margin-bottom:1.1rem; }
+    .spread-rose .pull { font-family:'Fraunces',serif; font-style:italic; font-weight:500;
+        font-size: clamp(1.4rem, 2.4vw, 2.1rem); color:#C24A26; border-left:6px solid #C24A26;
+        padding-left:1.25rem; margin:2rem 0; max-width:42rem; line-height:1.3; }
+    .spread-rose .recurring-bit { background:rgba(194,74,38,0.08); max-width:48rem; }
+    @media (max-width:720px) { .spread-rose .stamp-svg { width:140px; height:140px; top:1rem; right:1rem; } }
+  </style>
+  <svg class="stamp-svg" width="240" height="240" viewBox="0 0 240 240" aria-hidden="true">
+    <circle cx="120" cy="120" r="110" fill="none" stroke="#C24A26" stroke-width="2"/>
+    <circle cx="120" cy="120" r="92" fill="none" stroke="#C24A26" stroke-width="2"/>
+    <defs><path id="ringpath" d="M 120,120 m -101,0 a 101,101 0 1,1 202,0 a 101,101 0 1,1 -202,0"/></defs>
+    <text fill="#C24A26" font-family="Inter, sans-serif" font-weight="900"
+          font-size="13" letter-spacing="3">
+      <textPath href="#ringpath">ALERT · ALERT · ALERT · BOISE · ALERT · ALERT · ALERT · BOISE · </textPath>
+    </text>
+    <text x="120" y="135" text-anchor="middle" fill="#2B0A0A"
+          font-family="Fraunces, serif" font-weight="900" font-size="42" letter-spacing="-1">HOT</text>
+  </svg>
+  <div class="spread-inner">
+    <div class="topic-label" style="color:#C24A26;">FRESH OFF THE PRESS</div>
+    <div class="recurring-bit">
+      <div class="label" style="color:#C24A26;">FRESH OFF THE PRESS</div>
+      <div class="content"><p>FRESH OFF THE PRESS
+• Boise painted its flagpoles rainbow after pulling Pride flags per state law — and the internet immediately had a name for it.
+• The Idaho Family Policy Center is also pushing for mandatory Bible reading in classrooms and renaming state infrastructure for conservative figures including Charlie Kirk.
+• A Boise-area daycare is suing the state over the Medical Freedom Act, arguing it prevents basic public-health practices like requiring standard immunizations.</p></div>
+    </div>
+    <h2 class="headline">Boise painted the poles and the internet named it</h2>
+    <div class="deck">The city followed the letter of the flag ban — then picked up a brush.</div>
+    <div class="pull">The community named it before the city did — and the photo already said everything.</div>
+    <div class="body"><p>The story that broke out of Boise this week and landed on national timelines started with a law and ended with a paint can. Idaho enacted a ban on non-official flags at government buildings. Boise complied — removed the Pride flags, then painted the flagpoles themselves in rainbow colors, along with crosswalks and public art installations around City Hall. The community named what happened before any city official did: malicious compliance. That term emerged organically on Reddit and Bluesky, not from a press release. The photos circulated fast.</p><p>The Idaho Family Policy Center and the Idaho Freedom Foundation both pushed back, arguing the city used public funds to dodge the spirit of the law. That argument is real and it will continue. But the image — a flagpole, stripped of its flag, painted instead — is already doing its own rhetorical work regardless of where you stand on the underlying law.</p><p>The civic anchor that grounds all of this is quieter but worth watching: a Boise-area daycare sued the state over the Medical Freedom Act, arguing the law prevents standard public-health practices like sending sick children home. Abstract culture-war legislation, meet the parent at morning drop-off. That lawsuit is the flag debate in a room with actual children in it.</p></div>
+    <div class="byline">By Jess Park · Fresh Off the Press</div>
+    <div class="source-line">Source · r/Boise, Bluesky, Boise State Public Radio 2026 legislative session AMA, IFPC public statements</div>
+  </div>
+</section>
+
+
+<section class="spread spread-weather">
+  <style>
+    .spread-weather { background: linear-gradient(135deg, #4A90E2, #1E4D8C); color:#FFFFFF;
+        position:relative; }
+    .spread-weather::before { content:''; position:absolute; inset:0; pointer-events:none;
+        background: repeating-linear-gradient(0deg, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0.08) 1px,
+        transparent 1px, transparent 3px); }
+    .spread-weather .mood-banner { background:#FFD93D; color:#1A1A1A; padding:0.75rem 1.25rem;
+        display:inline-flex; align-items:baseline; gap:1.25rem; }
+    .spread-weather .mood-banner .label { font-family:'Inter',sans-serif; font-weight:900;
+        letter-spacing:0.25em; font-size:0.85rem; text-transform:uppercase; }
+    .spread-weather .mood-banner .word { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:900; font-size:1.5rem; }
+    .spread-weather .temp { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(7rem, 18vw, 16rem); line-height:0.9; color:#FFFFFF;
+        text-shadow: 6px 6px 0 rgba(255,217,61,0.55); letter-spacing:-0.04em; margin-top:1.5rem; }
+    .spread-weather .headline { font-family:'Fraunces',serif; font-weight:900; font-style:italic;
+        font-size: clamp(2.8rem, 6vw, 5.5rem); line-height:1.02; margin-top:1rem; max-width:22ch; }
+    .spread-weather .body { max-width:44rem; margin-top:2rem; border-left:3px solid #FFD93D;
+        padding-left:1.5rem; }
+    .spread-weather p { margin-bottom:1.2rem; color: rgba(255,255,255,0.95); }
+    .spread-weather .forecast-strip { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;
+        margin-top:2.5rem; border:2px solid rgba(255,217,61,0.6); padding:1rem; }
+    .spread-weather .forecast-cell { text-align:center; border-right:1px solid rgba(255,217,61,0.3);
+        padding:0.5rem 0.25rem; }
+    .spread-weather .forecast-cell:last-child { border-right:none; }
+    .spread-weather .sun-svg { position:absolute; top:3rem; right:3rem; opacity:0.7; }
+    @media (max-width:720px) { .spread-weather .forecast-strip { grid-template-columns:1fr; } }
+  </style>
+  <svg class="sun-svg" width="90" height="90" viewBox="0 0 100 100" aria-hidden="true">
+    <circle cx="50" cy="50" r="22" fill="#FFD93D"/>
+    <g stroke="#FFD93D" stroke-width="4" stroke-linecap="round">
+      <line x1="50" y1="5"  x2="50" y2="20"/>
+      <line x1="50" y1="80" x2="50" y2="95"/>
+      <line x1="5"  y1="50" x2="20" y2="50"/>
+      <line x1="80" y1="50" x2="95" y2="50"/>
+      <line x1="15" y1="15" x2="26" y2="26"/>
+      <line x1="74" y1="74" x2="85" y2="85"/>
+      <line x1="15" y1="85" x2="26" y2="74"/>
+      <line x1="74" y1="26" x2="85" y2="15"/>
+    </g>
+  </svg>
+  <div class="spread-inner" style="position:relative;">
+    <div class="topic-label">THE FORECAST</div>
+    <div class="mood-banner">
+      <span class="label">Mood of the Sky</span>
+      <span class="word">RELENTLESS.</span>
+    </div>
+    <div class="temp">47° / 31°</div>
+    <h2 class="headline">Record April, freeze watch, and one sweet Saturday window</h2>
+    <div class="body"><p>MOOD OF THE SKY: RELENTLESS.</p><p>Boise just made history and not the warm kind. April 2026 has logged 3.87 inches of precipitation — a new all-time record, surpassing marks that stood for over a century. April 22 alone dropped 0.87 inches in a single day. January came in at 0.73 inches, March at 0.79 — near-desert dry, both of them. Then April showed up with a suitcase and refused to leave. The Boise River is running high and cold, and some Greenbelt sections are seeing minor ponding.</p><p>Today: high of 47°F, which is nearly 15 degrees below the seasonal average of 63°F. Northwest winds 9 to 18 mph, humidity sitting at 79%, and that wind chill this morning felt like 34°F. This afternoon clears out and the sun shows up — but the thermometer doesn&#x27;t follow. Dottie didn&#x27;t want to come back inside this morning, which usually means the pressure is still unstable. She was right.</p><p>Here is the thing about Saturday: the NWS Freeze Watch runs 4:00 AM to 9:00 AM MDT. If you put anything tender in the ground during that warm stretch, cover it tonight before you go to bed — not Saturday morning, because by then it&#x27;s already happening. Once that watch lifts, Saturday becomes the best outdoor window of the weekend. High of 60°F, mostly sunny, winds light out of the south-southwest. The Spring Game kicks off at 2:10 PM and the lawn chair crowd will be fine. Sunday runs 55°F with patchy frost before 7 AM again, but the afternoon is clean. Get outside Saturday between 10 AM and 4 PM. The sky is giving you exactly one gift this weekend — take it.</p></div>
+    <div class="forecast-strip">
+      <div class="forecast-cell"><div class="stamp">TODAY</div><div style="font-family:'Fraunces';font-weight:900;font-size:2.2rem;">47° / 31°</div><div>RELENTLESS.</div></div>
+      <div class="forecast-cell"><div class="stamp">TONIGHT</div><div style="font-family:'Fraunces';font-weight:900;font-size:2.2rem;">—</div><div>Cooler</div></div>
+      <div class="forecast-cell"><div class="stamp">TOMORROW</div><div style="font-family:'Fraunces';font-weight:900;font-size:2.2rem;">—</div><div>Shifting</div></div>
+    </div>
+    <div class="byline">By Pete Caldwell · The Forecast</div>
+    <div class="source-line">Source · NWS Boise Forecast Office, data current as of 6:26 AM April 24</div>
+  </div>
+</section>
+
+
+<section class="spread spread-midnight">
+  <style>
+    .spread-midnight { background: radial-gradient(circle at 30% 20%, #1A2040 0%, #0B1020 70%);
+        color:#F5E6A8; }
+    .spread-midnight .stars span { position:absolute; background:#FFD978; border-radius:50%;
+        opacity:0.4; animation: twinkle 4s infinite ease-in-out; }
+    .spread-midnight .headline { font-family:'Fraunces',serif; font-style:italic; font-weight:900;
+        font-size: clamp(2.8rem, 7vw, 6.5rem); color:#FFD978; text-align:center;
+        text-shadow: 0 0 30px rgba(255,217,120,0.25); max-width:22ch; margin:0 auto;
+        letter-spacing:-0.02em; line-height:1.02; }
+    .spread-midnight .body { max-width:52rem; margin:3rem auto 0; text-align:justify;
+        font-size: clamp(1.05rem,1.4vw,1.2rem); line-height:1.8; }
+    .spread-midnight p { margin-bottom:1.3rem; }
+    .spread-midnight .pull { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.5rem,2.4vw,2.2rem); text-align:center; margin:3rem auto;
+        max-width:32rem; }
+    .spread-midnight .topic-label { color:#FFD978; text-align:center; }
+  </style>
+  <div class="stars"><span style="top:62.3%;left:74.2%;animation-delay:3.2s;width:4px;height:4px;"></span><span style="top:92.2%;left:2.9%;animation-delay:1.9s;width:2px;height:4px;"></span><span style="top:5.2%;left:15.7%;animation-delay:1.5s;width:2px;height:3px;"></span><span style="top:54.4%;left:57.4%;animation-delay:0.1s;width:2px;height:3px;"></span><span style="top:27.9%;left:91.6%;animation-delay:3.1s;width:2px;height:2px;"></span><span style="top:13.9%;left:61.7%;animation-delay:0.5s;width:2px;height:2px;"></span><span style="top:20.9%;left:21.5%;animation-delay:3.9s;width:2px;height:3px;"></span><span style="top:31.4%;left:19.9%;animation-delay:3.5s;width:4px;height:2px;"></span><span style="top:18.2%;left:96.9%;animation-delay:0.8s;width:3px;height:3px;"></span><span style="top:2.2%;left:41.5%;animation-delay:3.7s;width:3px;height:2px;"></span><span style="top:33.2%;left:81.7%;animation-delay:2.3s;width:4px;height:4px;"></span><span style="top:70.8%;left:6.6%;animation-delay:1.4s;width:3px;height:3px;"></span><span style="top:69.6%;left:18.5%;animation-delay:1.9s;width:2px;height:2px;"></span><span style="top:25.6%;left:93.9%;animation-delay:3.8s;width:3px;height:3px;"></span><span style="top:1.8%;left:78.8%;animation-delay:1.5s;width:4px;height:2px;"></span><span style="top:45.3%;left:70.8%;animation-delay:2.5s;width:2px;height:2px;"></span><span style="top:75.6%;left:93.0%;animation-delay:3.8s;width:3px;height:4px;"></span><span style="top:35.5%;left:52.5%;animation-delay:3.1s;width:2px;height:4px;"></span><span style="top:74.8%;left:79.7%;animation-delay:3.4s;width:2px;height:3px;"></span><span style="top:94.6%;left:9.1%;animation-delay:1.4s;width:4px;height:3px;"></span><span style="top:91.8%;left:34.0%;animation-delay:3.7s;width:4px;height:2px;"></span><span style="top:31.2%;left:31.7%;animation-delay:0.7s;width:2px;height:4px;"></span><span style="top:14.9%;left:68.9%;animation-delay:4.0s;width:2px;height:4px;"></span><span style="top:4.9%;left:98.7%;animation-delay:2.1s;width:3px;height:2px;"></span><span style="top:23.7%;left:59.4%;animation-delay:3.3s;width:3px;height:4px;"></span><span style="top:42.2%;left:5.6%;animation-delay:3.7s;width:2px;height:3px;"></span><span style="top:33.4%;left:20.7%;animation-delay:3.9s;width:4px;height:2px;"></span><span style="top:63.0%;left:78.8%;animation-delay:0.4s;width:3px;height:3px;"></span><span style="top:14.9%;left:84.5%;animation-delay:1.2s;width:3px;height:4px;"></span><span style="top:85.2%;left:97.6%;animation-delay:1.8s;width:3px;height:4px;"></span><span style="top:73.0%;left:47.9%;animation-delay:1.2s;width:3px;height:2px;"></span><span style="top:11.3%;left:82.2%;animation-delay:2.1s;width:2px;height:4px;"></span><span style="top:93.7%;left:86.8%;animation-delay:0.7s;width:3px;height:3px;"></span><span style="top:51.5%;left:54.8%;animation-delay:2.0s;width:2px;height:3px;"></span><span style="top:69.5%;left:66.4%;animation-delay:3.0s;width:3px;height:4px;"></span><span style="top:70.4%;left:28.1%;animation-delay:1.9s;width:4px;height:4px;"></span><span style="top:29.4%;left:94.6%;animation-delay:2.6s;width:4px;height:2px;"></span><span style="top:47.4%;left:77.4%;animation-delay:1.3s;width:3px;height:3px;"></span><span style="top:28.9%;left:50.0%;animation-delay:2.7s;width:3px;height:3px;"></span><span style="top:27.4%;left:34.6%;animation-delay:3.8s;width:3px;height:3px;"></span><span style="top:92.2%;left:17.2%;animation-delay:3.5s;width:3px;height:3px;"></span><span style="top:95.7%;left:51.8%;animation-delay:2.1s;width:2px;height:2px;"></span><span style="top:83.7%;left:93.7%;animation-delay:1.9s;width:4px;height:2px;"></span><span style="top:72.0%;left:73.0%;animation-delay:0.7s;width:4px;height:4px;"></span><span style="top:66.6%;left:42.1%;animation-delay:2.5s;width:4px;height:3px;"></span><span style="top:72.0%;left:2.8%;animation-delay:0.6s;width:3px;height:4px;"></span><span style="top:65.0%;left:21.9%;animation-delay:2.7s;width:4px;height:4px;"></span><span style="top:4.2%;left:47.2%;animation-delay:0.9s;width:2px;height:2px;"></span><span style="top:11.1%;left:96.8%;animation-delay:1.9s;width:4px;height:2px;"></span><span style="top:41.5%;left:35.1%;animation-delay:2.7s;width:2px;height:4px;"></span></div>
+  <div class="spread-inner" style="position:relative;">
+    <div class="topic-label">THE WAY I SEE IT</div>
+    <h2 class="headline">Partisan potholes and a budget you didn&#x27;t vote on</h2>
+    <div class="body"><p>SB 1356 passed both the Idaho House and Senate in two hours on April 1, 2026. Two hours. The Ada County Highway District — ACHD — is responsible for road maintenance, traffic signals, and infrastructure across Ada County. Its commissioners currently run in nonpartisan races. Under SB 1356, which has passed both chambers and is awaiting Governor Little&#x27;s signature, those races become partisan elections. The strongest version of the case for this bill is that all government should be accountable to a party platform. The honest counter is that a pothole does not have a party affiliation, and the people fixing it probably shouldn&#x27;t need one either. Local officials and city council members have broadly said so.</p><p>HB 842 is the bill fewer people are talking about and the one with the larger financial footprint. It removes cities&#x27; ability to collect forgone property tax revenue without going to a ballot initiative. Boise&#x27;s FY 2026 General Fund sits at $331.6 million — a 1.2% increase from the prior year. The city&#x27;s proposed 7.6% property tax increase funds police technology modernization and a rebate program for vulnerable homeowners. The Idaho Freedom Foundation has called that increase a betrayal of taxpayer trust. Governor Little&#x27;s Enduring Idaho plan, announced April 22, frames these restrictions as fiscal responsibility. The legislature adjourned April 14.</p><p>Three numbers worth watching before this is settled: the final property tax rate Boise can actually collect after HB 842 takes effect, the cost of ACHD commissioner races once party infrastructure gets involved, and how many nonpartisan infrastructure boards are left in Ada County after the 2026 cycle. Measure the thing — not the press release about the thing.</p></div>
+    <div class="pull">— A pothole does not have a party affiliation, and the people fixing it probably shouldn&#x27;t need one. —</div>
+    <div style="text-align:center;"><div class="byline">By Dani Breck · The Way I See It</div></div>
+    <div class="source-line">Source · BoiseDev, Idaho Legislature Bill Status, City of Boise FY 2026 Adopted Budget, City of Boise Week 12 Legislative Update, Idaho Freedom Foundation public statements</div>
+  </div>
+</section>
+
+
+<section class="spread spread-broadside">
+  <style>
+    .spread-broadside { background:#EDE3CF; color:#2B1F0F; position:relative;
+        background-image: radial-gradient(rgba(43,31,15,0.04) 1px, transparent 1px);
+        background-size: 3px 3px; }
+    .spread-broadside .frame { border:4px double #2B1F0F; padding: clamp(1.5rem, 4vw, 3rem);
+        position:relative; }
+    .spread-broadside .stamp-s { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.35em; color:#8B1E1E; font-size:0.85rem;
+        text-align:center; margin-bottom:1.5rem; }
+    .spread-broadside .headline-top { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(3rem, 7vw, 5.5rem); line-height:0.95; text-align:center;
+        letter-spacing:-0.02em; }
+    .spread-broadside .headline-mid { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:400; font-size: clamp(1.8rem, 4vw, 3rem); text-align:center; margin:0.5rem 0; }
+    .spread-broadside .headline-bot { font-family:'Fraunces',serif; font-weight:700;
+        font-variant: small-caps; letter-spacing:0.1em; font-size: clamp(1.2rem, 2vw, 1.6rem);
+        text-align:center; color:#8B1E1E; }
+    .spread-broadside .dropcap { font-family:'Fraunces',serif; font-weight:900; color:#8B1E1E;
+        float:left; font-size: clamp(4rem, 8vw, 6rem); line-height:0.85;
+        padding:0.3rem 0.8rem 0 0; }
+    .spread-broadside .body { margin-top:2rem; column-count:2; column-gap:3rem; text-align:justify;
+        hyphens:auto; }
+    .spread-broadside p { margin-bottom:1.1rem; break-inside:avoid; }
+    .spread-broadside .thennow { display:grid; grid-template-columns:1fr 1fr; gap:2rem;
+        margin-top:2rem; border-top:2px solid #8B1E1E; padding-top:1.25rem; }
+    .spread-broadside .thennow h4 { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.25em; color:#8B1E1E; font-size:0.85rem;
+        margin-bottom:0.5rem; }
+    .spread-broadside .editor-colophon { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:400; font-size:0.95rem; color:#6A4F28; text-align:center;
+        margin-top:2rem; padding-top:1.25rem; border-top:1px dashed rgba(43,31,15,0.35);
+        letter-spacing:0.02em; }
+    .spread-broadside .editor-colophon strong { font-weight:700; color:#8B1E1E; font-style:normal;
+        letter-spacing:0.12em; text-transform:uppercase; font-size:0.72rem;
+        font-family:'Inter',sans-serif; }
+    @media (max-width:820px) { .spread-broadside .body { column-count:1; } }
+  </style>
+  <div class="spread-inner">
+    <div class="frame">
+      <div class="stamp-s">Extra! · Broadside · SATURDAY TRIED IT</div>
+      <div class="headline-top">Twenty-one gone. Nine left. Bring a raffle ticket.</div>
+      <div class="headline-mid">West Ada students built 30 doghouses, and the public didn&#x27;t even get a shot at most of them.</div>
+      <div class="headline-bot">— A dispatch from the archives —</div>
+      <div class="body"><p><span class="dropcap">T</span>he scarcity is the story. Thirty doghouses — designed and built by West Ada School District CTE Residential Construction Level 1 students — went on display at The Village at Meridian, 3597 E Monarch Sky Ln. Twenty-one of them sold before the public event opened. Nine remain at $500 each. CALLING IT: if you show up this weekend expecting to browse thirty options, reset your expectations now. The raffle is the move most families won&#x27;t know about unless someone tells them. Consider yourself told. Contact Jenna Englund at BCASWI (208-995-2885) for details. Hours run approximately 10 AM to 9 PM through Sunday.</p><p>Proceeds benefit the BCASWI Trade Education and Training Scholarship Fund, including the Mia Englund Memorial Scholarship — a $2,911 award for students pursuing construction careers. The CTE pipeline matters in the Treasure Valley right now, and the sold-before-you-arrived reality is the proof of concept. Kyle would ask how much it cost. The answer is $500, which is also the answer to what it costs to give a high schooler&#x27;s first major build a home.</p><div style="text-align:center;margin:1rem 0;"> <span style="color:#8B1E1E;">❦</span> </div><p>Saturday morning freeze watch lifts by 9 AM. Bundle up if you&#x27;re hitting Fountain Square early. After that: World Penguin Day at Zoo Boise runs 10 AM to 2 PM with regular admission — Magellanic penguin crafts and biofact stations are included. Zoo Boise Safari Stuffies tonight (Friday) goes 5:30 to 7:30 PM at $80 per child, ages 4 and up, registered adult required. Boise Off-Road Expo runs today and Saturday at Expo Idaho, $12 adults, kids free. The weekend has options. Dress in layers until noon.</p></div>
+      
+      <div class="byline">By Hayley Watts · Saturday Tried It</div>
+      <div class="source-line">Source · BCASWI event calendar, The Village at Meridian event listings, Zoo Boise education schedule</div>
+      <div class="editor-colophon">— Margaret Halstead, <strong>Editor-in-Chief</strong></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <style>
+    .footer { background:#0B1E33; color:#F4EFE6; padding: clamp(2rem,4vw,4rem)
+        clamp(1.5rem,6vw,6rem); text-align:center; border-top:3px solid #C24A26; }
+    .footer .title { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.8rem, 4vw, 3rem); }
+    .footer .staff { font-family:'Inter',sans-serif; font-size:0.85rem; color:#9A9A9A;
+        margin-top:1.5rem; max-width:80ch; margin-left:auto; margin-right:auto;
+        line-height:1.8; letter-spacing:0.05em; }
+    .footer .colophon { font-family:'Inter',sans-serif; font-size:0.72rem; color:#6A6A6A;
+        margin-top:2rem; text-transform:uppercase; letter-spacing:0.3em; }
+  </style>
+  <div class="title">The Boise Pulse</div>
+  <div class="staff">Staff writers: Kelsey Rowe (The Bench) · Pete Caldwell (The Forecast) · Sal Merritt (The Market) · Wade Ostermann (Drive-By History) · Nina Castillo (The Table) · Dex Dexter (The Scene) · Jess Park (Fresh Off the Press) · Dani Breck (The Way I See It) · Hayley Watts (Saturday Tried It) · Margaret Halstead (Today&#x27;s Edition)</div>
+  <div class="colophon">2026-04-24 · built in Boise · © The Boise Pulse</div>
+</footer>
+
+</body>
+</html>
