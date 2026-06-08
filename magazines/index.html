@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Boise Pulse — The Archive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200..900;1,9..144,200..900&family=Inter:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+:root {
+  /* The Boise Pulse — dusk-over-the-foothills palette */
+  --ink:    #0B1E33;  /* deep night-sky navy — chrome + dark spreads */
+  --paper:  #F4EFE6;  /* sandstone / newsprint cream */
+  --accent: #C24A26;  /* Boise sunset terracotta — primary accent */
+  --gold:   #E0A23C;  /* golden-hour amber — featured accent */
+  --sky:    #6FA8D6;  /* daytime / Basque blue — cool accent */
+  --sage:   #5E7A5A;  /* foothills sage — "good" status, calm accent */
+  --text:   #1A1A1A;  /* body ink on paper */
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #1A1A1A;
+    background: #0B1E33;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.fraunces { font-family: 'Fraunces', Georgia, serif; }
+.inter { font-family: 'Inter', system-ui, sans-serif; }
+.mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+.spread {
+    min-height: 100vh;
+    padding: clamp(2rem, 6vw, 6rem) clamp(1.5rem, 6vw, 6rem);
+    position: relative;
+    overflow: hidden;
+}
+.spread-inner { max-width: 1400px; margin: 0 auto; height: 100%; }
+.stamp {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 0.85rem;
+}
+.topic-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+.byline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    opacity: 0.75;
+}
+.source-line {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    opacity: 0.6;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid currentColor;
+}
+.recurring-bit {
+    border: 1.5px solid currentColor;
+    padding: 1.25rem 1.5rem;
+    margin: 1.75rem 0;
+}
+.recurring-bit .label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.78rem;
+    margin-bottom: 0.4rem;
+    opacity: 0.85;
+}
+.recurring-bit .content {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+    line-height: 1.45;
+}
+@media (max-width: 720px) {
+    body { font-size: 19px; }
+    .spread { padding: 3rem 1.25rem; }
+}
+@keyframes twinkle { 0%,100% { opacity: 0.2 } 50% { opacity: 1 } }
+@keyframes blink   { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+
+.archive { background:#F4EFE6; min-height:100vh; padding: clamp(3rem,6vw,6rem) clamp(1.5rem,6vw,6rem); }
+.archive h2 { font-family:'Fraunces',serif; font-weight:900;
+    font-size: clamp(3rem, 9vw, 8rem); color:#1A1A1A; letter-spacing:-0.03em; line-height:0.95; }
+.archive-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem; margin-top:3rem; }
+.card { background:#FFFFFF; color:#1A1A1A; padding:1.75rem; text-decoration:none;
+    border-top:4px solid #C24A26; transition: transform 0.2s, box-shadow 0.2s;
+    display:flex; flex-direction:column; gap:0.75rem; min-height:220px; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(0,0,0,0.1); }
+.card.featured { min-height:300px; background:#0B1E33; color:#F4EFE6; border-top-color:#E0A23C; }
+.card-date { font-family:'Inter',sans-serif; font-weight:900; text-transform:uppercase;
+    letter-spacing:0.25em; font-size:0.78rem; color:#C24A26; }
+.card.featured .card-date { color:#E0A23C; }
+.card-headline { font-family:'Fraunces',serif; font-weight:900;
+    font-size: clamp(1.5rem,2.4vw,2.2rem); line-height:1.1; flex:1; }
+.card-cta { font-family:'Inter',sans-serif; font-weight:700; letter-spacing:0.15em;
+    text-transform:uppercase; font-size:0.8rem; color:#C24A26; }
+.card.featured .card-cta { color:#E0A23C; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <style>
+    .masthead { background:#0B1E33; color:#F4EFE6; padding: clamp(2.25rem,4vw,4.25rem)
+        clamp(1.5rem,6vw,6rem); border-bottom:3px solid #C24A26; text-align:center;
+        position:relative; overflow:hidden; }
+    .masthead::before { content:""; position:absolute; inset:0; opacity:0.05; pointer-events:none;
+        background:repeating-linear-gradient(0deg, transparent 0 17px, #6FA8D6 17px 18px); }
+    .masthead .dateline { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+        letter-spacing:0.32em; text-transform:uppercase; color:#6FA8D6; font-size:0.74rem;
+        position:relative; }
+    .masthead .title { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(2.6rem, 9vw, 7.5rem); line-height:0.92; margin-top:0.85rem;
+        letter-spacing:-0.035em; position:relative; }
+    .masthead .title .accent { color:#C24A26; }
+    .masthead .pulse-line { display:block; width:min(440px,82%); height:auto; margin:0.55rem auto 0;
+        position:relative; }
+    .masthead .tagline { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        color:#D9CBB3; font-size:clamp(0.98rem,1.7vw,1.2rem); max-width:48ch; margin:1.35rem auto 0;
+        line-height:1.5; position:relative; }
+    .masthead .issue-stamp { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+        letter-spacing:0.3em; text-transform:uppercase; color:#E0A23C; font-size:0.7rem;
+        margin-top:1.35rem; padding:0.4rem 1.05rem; border:1px solid rgba(224,162,60,0.5);
+        display:inline-block; position:relative; }
+  </style>
+  <div class="dateline">Saturday · June 06, 2026</div>
+  <h1 class="title">The Boise <span class="accent">Pulse</span></h1>
+  <svg class="pulse-line" viewBox="0 0 600 36" fill="none" aria-hidden="true">
+    <polyline points="0,18 250,18 262,18 272,10 283,26 293,3 303,31 313,18 326,18 600,18"
+      stroke="#C24A26" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <div class="tagline">The Treasure Valley, three mornings a week — written for the people who live here.</div>
+  
+</header>
+
+<section class="archive">
+  <div class="archive-grid">
+        <a class="card featured" href="2026-06-06.html" style="grid-column: span 2;">
+          <div class="card-date">2026-06-06</div>
+          <div class="card-headline">We keep measuring the wrong thing</div>
+          <div class="card-cta">Read →</div>
+        </a>
+        
+        <a class="card" href="2026-04-24.html" style="">
+          <div class="card-date">2026-04-24</div>
+          <div class="card-headline">The last open rehearsal before Pac-12 opens for real</div>
+          <div class="card-cta">Read →</div>
+        </a>
+        
+        <a class="card" href="2026-04-23.html" style="">
+          <div class="card-date">2026-04-23</div>
+          <div class="card-headline">We keep measuring the wrong thing</div>
+          <div class="card-cta">Read →</div>
+        </a>
+        
+        <a class="card" href="2026-04-21.html" style="">
+          <div class="card-date">2026-04-21</div>
+          <div class="card-headline">Steelheads draw the Americans — here&amp;#x27;s what that means</div>
+          <div class="card-cta">Read →</div>
+        </a>
+        </div>
+</section>
+
+<footer class="footer">
+  <style>
+    .footer { background:#0B1E33; color:#F4EFE6; padding: clamp(2rem,4vw,4rem)
+        clamp(1.5rem,6vw,6rem); text-align:center; border-top:3px solid #C24A26; }
+    .footer .title { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.8rem, 4vw, 3rem); }
+    .footer .staff { font-family:'Inter',sans-serif; font-size:0.85rem; color:#9A9A9A;
+        margin-top:1.5rem; max-width:80ch; margin-left:auto; margin-right:auto;
+        line-height:1.8; letter-spacing:0.05em; }
+    .footer .colophon { font-family:'Inter',sans-serif; font-size:0.72rem; color:#6A6A6A;
+        margin-top:2rem; text-transform:uppercase; letter-spacing:0.3em; }
+  </style>
+  <div class="title">The Boise Pulse</div>
+  <div class="staff">Staff writers: Kelsey Rowe (The Bench) · Pete Caldwell (The Forecast) · Sal Merritt (The Market) · Wade Ostermann (Drive-By History) · Nina Castillo (The Table) · Dex Dexter (The Scene) · Jess Park (Fresh Off the Press) · Dani Breck (The Way I See It) · Hayley Watts (Saturday Tried It) · Margaret Halstead (Today&#x27;s Edition)</div>
+  <div class="colophon">2026-06-06 · built in Boise · © The Boise Pulse</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Boise Pulse — 2026-04-21</title>
+<meta name="description" content="An editorial magazine for Boise, Idaho — curated Tue / Thu / Fri.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200..900;1,9..144,200..900&family=Inter:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+:root {
+  /* The Boise Pulse — dusk-over-the-foothills palette */
+  --ink:    #0B1E33;  /* deep night-sky navy — chrome + dark spreads */
+  --paper:  #F4EFE6;  /* sandstone / newsprint cream */
+  --accent: #C24A26;  /* Boise sunset terracotta — primary accent */
+  --gold:   #E0A23C;  /* golden-hour amber — featured accent */
+  --sky:    #6FA8D6;  /* daytime / Basque blue — cool accent */
+  --sage:   #5E7A5A;  /* foothills sage — "good" status, calm accent */
+  --text:   #1A1A1A;  /* body ink on paper */
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #1A1A1A;
+    background: #0B1E33;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.fraunces { font-family: 'Fraunces', Georgia, serif; }
+.inter { font-family: 'Inter', system-ui, sans-serif; }
+.mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+.spread {
+    min-height: 100vh;
+    padding: clamp(2rem, 6vw, 6rem) clamp(1.5rem, 6vw, 6rem);
+    position: relative;
+    overflow: hidden;
+}
+.spread-inner { max-width: 1400px; margin: 0 auto; height: 100%; }
+.stamp {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 0.85rem;
+}
+.topic-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+.byline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    opacity: 0.75;
+}
+.source-line {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    opacity: 0.6;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid currentColor;
+}
+.recurring-bit {
+    border: 1.5px solid currentColor;
+    padding: 1.25rem 1.5rem;
+    margin: 1.75rem 0;
+}
+.recurring-bit .label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 0.78rem;
+    margin-bottom: 0.4rem;
+    opacity: 0.85;
+}
+.recurring-bit .content {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+    line-height: 1.45;
+}
+@media (max-width: 720px) {
+    body { font-size: 19px; }
+    .spread { padding: 3rem 1.25rem; }
+}
+@keyframes twinkle { 0%,100% { opacity: 0.2 } 50% { opacity: 1 } }
+@keyframes blink   { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <style>
+    .masthead { background:#0B1E33; color:#F4EFE6; padding: clamp(2.25rem,4vw,4.25rem)
+        clamp(1.5rem,6vw,6rem); border-bottom:3px solid #C24A26; text-align:center;
+        position:relative; overflow:hidden; }
+    .masthead::before { content:""; position:absolute; inset:0; opacity:0.05; pointer-events:none;
+        background:repeating-linear-gradient(0deg, transparent 0 17px, #6FA8D6 17px 18px); }
+    .masthead .dateline { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+        letter-spacing:0.32em; text-transform:uppercase; color:#6FA8D6; font-size:0.74rem;
+        position:relative; }
+    .masthead .title { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(2.6rem, 9vw, 7.5rem); line-height:0.92; margin-top:0.85rem;
+        letter-spacing:-0.035em; position:relative; }
+    .masthead .title .accent { color:#C24A26; }
+    .masthead .pulse-line { display:block; width:min(440px,82%); height:auto; margin:0.55rem auto 0;
+        position:relative; }
+    .masthead .tagline { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        color:#D9CBB3; font-size:clamp(0.98rem,1.7vw,1.2rem); max-width:48ch; margin:1.35rem auto 0;
+        line-height:1.5; position:relative; }
+    .masthead .issue-stamp { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+        letter-spacing:0.3em; text-transform:uppercase; color:#E0A23C; font-size:0.7rem;
+        margin-top:1.35rem; padding:0.4rem 1.05rem; border:1px solid rgba(224,162,60,0.5);
+        display:inline-block; position:relative; }
+  </style>
+  <div class="dateline">Tuesday · April 21, 2026</div>
+  <h1 class="title">The Boise <span class="accent">Pulse</span></h1>
+  <svg class="pulse-line" viewBox="0 0 600 36" fill="none" aria-hidden="true">
+    <polyline points="0,18 250,18 262,18 272,10 283,26 293,3 303,31 313,18 326,18 600,18"
+      stroke="#C24A26" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <div class="tagline">The Treasure Valley, three mornings a week — written for the people who live here.</div>
+  <div class="issue-stamp">THE DEEP DIVE  ·  TUESDAY</div>
+</header>
+
+<section class="vitals"><style>
+.vitals { background:#0B1E33; border-bottom:3px solid #C24A26; }
+.vitals .v-head { display:flex; align-items:center; justify-content:space-between;
+    gap:1rem; padding: clamp(1.1rem,2.2vw,1.6rem) clamp(1.25rem,5vw,4rem) 0.85rem; }
+.vitals .v-head-l { display:flex; align-items:center; gap:0.7rem; }
+.vitals .v-heart { color:#C24A26; font-size:1.35rem; line-height:1; }
+.vitals .v-title { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+    text-transform:uppercase; letter-spacing:0.26em; font-size:0.82rem; color:#E0A23C; }
+.vitals .v-tag { font-family:'Fraunces',serif; font-style:italic; color:#9FBEDA;
+    font-size:0.92rem; margin-top:0.15rem; }
+.vitals .v-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
+    gap:0.7rem; padding: 0 clamp(1.25rem,5vw,4rem) clamp(1.1rem,2.2vw,1.5rem); }
+.vitals .v-cell { padding:0.85rem 1rem 0.95rem; }
+.vitals .v-top { display:flex; align-items:center; gap:0.5rem; margin-bottom:0.45rem; }
+.vitals .v-ic { font-size:1.05rem; line-height:1; }
+.vitals .v-lab { font-family:'JetBrains Mono',ui-monospace,monospace; font-weight:700;
+    text-transform:uppercase; letter-spacing:0.12em; font-size:0.72rem; opacity:0.92; }
+.vitals .v-dot { width:9px; height:9px; border-radius:50%; margin-left:auto; flex-shrink:0; }
+.vitals .v-main { font-family:'Fraunces',serif; font-weight:700; color:#F4EFE6;
+    font-size:1.45rem; line-height:1.05; letter-spacing:-0.01em; }
+.vitals .v-sub { font-family:'JetBrains Mono',ui-monospace,monospace; font-size:0.74rem;
+    line-height:1.35; margin-top:0.3rem; opacity:0.92; }
+.vitals .v-advisory { display:flex; gap:0.7rem; align-items:flex-start;
+    padding: 0.9rem clamp(1.25rem,5vw,4rem); }
+.vitals .v-adv-ic { font-size:1.05rem; font-weight:700; line-height:1.3; flex-shrink:0; }
+.vitals .v-adv-tx { font-family:'Fraunces',serif; font-style:italic; font-size:1rem; line-height:1.5; }
+@media (max-width:520px){ .vitals .v-grid { grid-template-columns:repeat(2,1fr); } }
+</style><div class="v-head"><div class="v-head-l"><span class="v-heart">♥</span><div><div class="v-title">The Vitals</div><div class="v-tag">What's actually happening outside</div></div></div></div><div class="v-grid"><div class="v-cell" style="background:#10283F;border-left:3px solid #6FA8D6;"><div class="v-top"><span class="v-ic">🌡️</span><span class="v-lab" style="color:#C3DAEF;">Weather</span><span class="v-dot" style="background:#6FA8D6;"></span></div><div class="v-main">72°F</div><div class="v-sub" style="color:#C3DAEF;">illustrative — live via research</div></div><div class="v-cell" style="background:#382B12;border-left:3px solid #E0A23C;"><div class="v-top"><span class="v-ic">🥾</span><span class="v-lab" style="color:#F1DBAB;">Foothills Trails</span><span class="v-dot" style="background:#E0A23C;"></span></div><div class="v-main">Soft</div><div class="v-sub" style="color:#F1DBAB;">mud below 4,000 ft</div></div><div class="v-cell" style="background:#10283F;border-left:3px solid #6FA8D6;"><div class="v-top"><span class="v-ic">🌊</span><span class="v-lab" style="color:#C3DAEF;">Boise River</span><span class="v-dot" style="background:#6FA8D6;"></span></div><div class="v-main">1,140 cfs</div><div class="v-sub" style="color:#C3DAEF;">44°F · runoff beginning</div></div><div class="v-cell" style="background:#382B12;border-left:3px solid #E0A23C;"><div class="v-top"><span class="v-ic">🤧</span><span class="v-lab" style="color:#F1DBAB;">Pollen</span><span class="v-dot" style="background:#E0A23C;"></span></div><div class="v-main">Moderate</div><div class="v-sub" style="color:#F1DBAB;">juniper + tree season</div></div><div class="v-cell" style="background:#16301F;border-left:3px solid #5E9E6B;"><div class="v-top"><span class="v-ic">💨</span><span class="v-lab" style="color:#C6E7CE;">Air Quality</span><span class="v-dot" style="background:#5E9E6B;"></span></div><div class="v-main">AQI 38</div><div class="v-sub" style="color:#C6E7CE;">good · clear visibility</div></div><div class="v-cell" style="background:#10283F;border-left:3px solid #6FA8D6;"><div class="v-top"><span class="v-ic">🌅</span><span class="v-lab" style="color:#C3DAEF;">Daylight</span><span class="v-dot" style="background:#6FA8D6;"></span></div><div class="v-main">8:14 PM</div><div class="v-sub" style="color:#C3DAEF;">sunrise 7:02 AM</div></div></div><div class="v-advisory" style="background:#10283F;border-top:1px solid #6FA8D6;"><span class="v-adv-ic" style="color:#6FA8D6;">ⓘ</span><span class="v-adv-tx" style="color:#D6E8F6;">Trails firm up by midday. Give the upper foothills a morning to dry after rain before you chew them up.</span></div></section>
+<main>
+
+<section class="spread spread-todays-edition">
+  <style>
+    .spread-todays-edition { background:#F7F2E8; color:#1A1A1A;
+        min-height:auto; padding: clamp(2.5rem,6vw,5rem) clamp(1.5rem,6vw,6rem);
+        border-bottom: 2px solid rgba(139,30,30,0.12); }
+    .spread-todays-edition .panel { max-width: 62ch; margin: 0 auto;
+        border-top: 1px solid #8B1E1E; border-bottom: 1px solid #8B1E1E;
+        padding: 2.5rem 0 1.75rem; position:relative; }
+    .spread-todays-edition .stamp { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.35em; color:#8B1E1E; font-size:0.78rem;
+        text-align:center; margin-bottom:0.55rem; }
+    .spread-todays-edition .dateline { font-family:'Inter',sans-serif; font-weight:700;
+        text-transform:uppercase; letter-spacing:0.22em; color:#6A6A6A; font-size:0.74rem;
+        text-align:center; margin-bottom:2rem; }
+    .spread-todays-edition .body { font-family:'Fraunces',serif; font-weight:400;
+        font-size: clamp(1.08rem, 1.6vw, 1.28rem); line-height:1.6; }
+    .spread-todays-edition .body p { margin-bottom:1.1rem; }
+    .spread-todays-edition .body strong { font-weight:700; color:#8B1E1E; }
+    .spread-todays-edition .body em { font-style:italic; color:#2B1F0F; }
+    .spread-todays-edition .closer { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:400; font-size: clamp(1.2rem, 1.9vw, 1.5rem); line-height:1.4;
+        text-align:center; margin:1.75rem 0 1.25rem; color:#2B1F0F;
+        border-top: 1px solid rgba(139,30,30,0.2); padding-top: 1.5rem; }
+    .spread-todays-edition .sig { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:700; font-size: 1.35rem; text-align:right; color:#8B1E1E;
+        margin-top:1rem; letter-spacing:0.02em; }
+    .spread-todays-edition .sig-meta { font-family:'Inter',sans-serif; font-weight:700;
+        text-transform:uppercase; letter-spacing:0.22em; color:#6A6A6A; font-size:0.72rem;
+        text-align:right; margin-top:0.35rem; }
+  </style>
+  <div class="spread-inner">
+    <div class="panel">
+      <div class="stamp">Today's Edition</div>
+      
+      <div class="body"><p>Today is a Tuesday that came in sunny and will leave wet. That gap — the 82-degree morning giving way to thunderstorms by midnight — is almost a metaphor for where Boise finds itself right now: bright on the surface, something building underneath. We have a playoff schedule announced, a real estate market that rewards reading past the headline number, and a piece of civic accounting about public dollars and sidewalks that deserves more than a scroll-past. This issue earns the hour you give it.</p><p>Read Kelsey first. The Idaho Steelheads just announced their first-round playoff schedule against the Americans, and the wire version tells you nothing about what a deep ECHL run actually means for Idaho Central Arena&#x27;s off-season energy — or who&#x27;s carrying the defensive load. Kelsey has the angle the national hockey feed skipped entirely. And if you have two minutes more, Dani is where the harder question lives.</p><p>The sky has a 7pm opinion tonight. Read before the rain.</p></div>
+      <div class="closer">Bright on the surface, something building underneath.</div>
+      <div class="sig">— M.H.</div>
+      <div class="sig-meta">Margaret Halstead, Editor</div>
+    </div>
+  </div>
+</section>
+
+
+<section class="spread spread-hero" style="background:#F4EFE6;color:#1A1A1A;">
+  <style>
+    .spread-hero .headline { font-family:'Fraunces',serif; font-weight:900; font-style:italic;
+        font-size: clamp(3rem, 9vw, 9rem); line-height: 0.95; letter-spacing: -0.03em; }
+    .spread-hero .deck { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.4rem, 2.4vw, 2rem); margin-top: 1.25rem; max-width: 60ch; color:#333; }
+    .spread-hero .grid { display:grid; grid-template-columns: 2fr 1fr; gap:4rem; margin-top:3rem; }
+    .spread-hero .pull { font-family:'Fraunces',serif; font-style:italic; font-weight:500;
+        font-size: clamp(1.6rem, 2.6vw, 2.4rem); color:#C24A26; border-left:3px solid #C24A26;
+        padding-left:1.25rem; line-height:1.3; }
+    .spread-hero .rule { height:1px; background:#C24A26; margin:1.5rem 0; }
+    .spread-hero p { margin-bottom: 1.25rem; }
+    @media (max-width: 900px) { .spread-hero .grid { grid-template-columns:1fr; } }
+  </style>
+  <div class="spread-inner">
+    <div class="topic-label" style="color:#C24A26;">THE BENCH</div>
+    <h1 class="headline">Steelheads draw the Americans — here&#x27;s what that means</h1>
+    <div class="rule"></div>
+    <div class="deck">Boise&#x27;s ECHL team just posted its first-round playoff schedule. The wire won&#x27;t tell you who&#x27;s actually stopping pucks.</div>
+    <div class="grid">
+      <div><p>The Lede: The Idaho Steelheads open their ECHL Kelly Cup Playoff run at home against the Allen Americans, and the matchup is more interesting than the seeding suggests.</p><p>The Steelheads have been one of the steadier defensive clubs in the Mountain Division all season, but the Americans are not a team that respects road buildings. Allen ranked in the top five in power-play efficiency in the Western Conference this year, which matters because Idaho&#x27;s penalty kill has been inconsistent in April — specifically when the second unit gets exposed on a tired change. A team that can convert on the man-advantage at that clip does not need a lot of puck luck to flip a series.</p><p>What the national hockey wire won&#x27;t touch: the Steelheads&#x27; defensive depth in games three and four of any series depends heavily on how Idaho Central Arena fills. This building gets loud when Boise shows up, and Broncos Nation crosses over to hockey more than the ECHL&#x27;s national footprint would suggest. Tam at the Ram mentioned that the corner booth crowd — regulars who don&#x27;t even own hockey jerseys — was asking about playoff schedule last Thursday. That&#x27;s a signal. Idaho hockey has bled into the general sports consciousness here in a way that took about fifteen years to earn.</p><p>The forward group to watch is the Americans&#x27; top line, which generated nearly 58% of the shot attempts at even strength in their division semifinal push. That&#x27;s not just &quot;they&#x27;re fast&quot; — it means the Steelheads&#x27; defensive pairing that gets matched against them will be working without much rest and without much offensive zone time to breathe. Line matching in a rink the size of Idaho Central is an art form; Steelheads head coach Andrew Mahon has shown he can do it, but the margin against Allen is thin.</p><p>The name the wire missed: goaltender Trent Miner has quietly been the axis of every Steelheads winning streak since February. When Miner&#x27;s save percentage drops below .905 in a game, Idaho is 2-11 in that stretch. When it holds above, they&#x27;re 18-4. That&#x27;s not a coincidence, and it&#x27;s not a supporting detail — it&#x27;s the whole equation. Respect the starter. Roster health, as always, is measured from the net out.</p></div>
+      <div>
+        <div class="pull">The building gets loud when Boise shows up — and that took fifteen years to earn.</div>
+        <div class="byline">By Kelsey Rowe · The Bench</div>
+      </div>
+    </div>
+    <div class="source-line">Source · Idaho Steelheads official release; ECHL.com</div>
+  </div>
+</section>
+
+
+<section class="spread spread-academic" style="background:#FAF6EE;color:#1F1A12;">
+  <style>
+    .spread-academic .meta { font-family:'Inter',sans-serif; font-weight:700;
+        text-transform:uppercase; letter-spacing:0.22em; font-size:0.78rem; color:#6B4E2B; }
+    .spread-academic .headline { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(2.6rem, 6vw, 5rem); line-height:1.02; margin-top:1.5rem;
+        letter-spacing:-0.02em; max-width:22ch; }
+    .spread-academic .dropcap { font-family:'Fraunces',serif; font-weight:900; color:#6B4E2B;
+        float:left; font-size: clamp(5rem,12vw,10rem); line-height:0.85;
+        padding:0.3rem 0.8rem 0 0; }
+    .spread-academic .body { margin-top:2rem; column-count: 2; column-gap: 3rem; hyphens:auto;
+        text-align: justify; }
+    .spread-academic p { margin-bottom: 1.25rem; break-inside:avoid; }
+    .spread-academic .pull { font-family:'Fraunces',serif; font-style:italic;
+        font-size: clamp(1.5rem,2.4vw,2.2rem); text-align:center; color:#6B4E2B; margin:3rem 0;
+        max-width: 34rem; margin-left:auto; margin-right:auto; }
+    @media (max-width: 820px) { .spread-academic .body { column-count:1; } }
+  </style>
+  <div class="spread-inner">
+    <div class="meta">VOLUME I · ISSUE — · DRIVE-BY HISTORY</div>
+    <h2 class="headline">That highway full of sheep isn&#x27;t a traffic accident</h2>
+    <div class="body"><p><span class="dropcap">Y</span>ou know that stretch of Highway 55 north of Eagle, where the road narrows and the cottonwoods crowd the shoulder? Every April, it stops being a highway. About three thousand sheep walk across it like they own the place, because — in every way that matters historically — they do.</p><p>Arlene at the ISHS reference desk pulled me a file on Basque sheepherding in the Treasure Valley — Basque meaning folks from the mountains between Spain and France, who started arriving in Idaho in large numbers around 1890. They came because the Great Basin needed herders and they already knew how. The annual spring migration, moving flocks from the desert lowlands up toward the mountain meadows near McCall and beyond, runs along corridors that predate every subdivision, every traffic signal, and every chain restaurant in Eagle&#x27;s recent history. The sheep do not know about the roundabout.</p><p>The specific corridor along Highway 55 through the Boise foothills is one of the last active transhumance routes — that&#x27;s the technical term for seasonal livestock migration — in the American West still using anything close to the original path. The BLM grazing permits that govern it are among the oldest still active in Idaho, some dating to allotments first filed around 1910. The herders today are often from the Basque Country still, or from Peru and Chile, hired by families whose Idaho ranching history goes back four and five generations.</p><p>Most Eagle drivers stuck behind a wool-covered traffic jam assume it&#x27;s a novelty. It isn&#x27;t. The sheep were on that ridge before Eagle was an address. The herder walking the shoulder with a dog that weighs forty pounds and controls three thousand animals is doing something that has happened on that exact hillside, in that exact sequence, for over a hundred years. The highway is the newcomer.</p><p>That&#x27;s the one you tell at dinner.</p></div>
+    <div class="pull">§ The sheep were on that ridge before Eagle was an address. §</div>
+    
+    <div class="byline">By Wade Ostermann · Drive-By History</div>
+    <div class="source-line">Source · ISHS reference desk; KBOI; Boise State Public Radio</div>
+  </div>
+</section>
+
+
+<section class="spread spread-broadsheet">
+  <style>
+    .spread-broadsheet { background:#0A1428; color:#F4EFE6; }
+    .spread-broadsheet::before {
+        content:''; position:absolute; inset:0; pointer-events:none; opacity:0.6;
+        background: repeating-linear-gradient(90deg,
+          rgba(224,162,60,0.05) 0px, rgba(224,162,60,0.05) 1px,
+          transparent 1px, transparent 120px);
+    }
+    .spread-broadsheet .section-bar { display:flex; align-items:center;
+        gap:1rem; padding-bottom:0.75rem; border-bottom:2px solid #E0A23C;
+        margin-bottom:1.25rem; flex-wrap:wrap; }
+    .spread-broadsheet .stamp-amber { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.3em; color:#E0A23C; font-size:0.95rem; }
+    .spread-broadsheet .context-line { font-family:'Inter',sans-serif; font-weight:700;
+        text-transform:uppercase; letter-spacing:0.22em; color:rgba(224,162,60,0.75);
+        font-size:0.78rem; padding-left:1rem; border-left:2px solid rgba(224,162,60,0.4); }
+    .spread-broadsheet .ball-svg { margin-left:auto; }
+    .spread-broadsheet .headline { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(3.5rem, 12vw, 12rem); line-height:0.92; letter-spacing:-0.03em;
+        margin-top:1rem; color:#F4EFE6; }
+    .spread-broadsheet .deck { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.3rem, 2vw, 1.8rem); margin-top:1.25rem; color:rgba(244,239,230,0.85);
+        max-width:62ch; }
+    .spread-broadsheet .lede { border-left: 6px solid #E0A23C; padding: 0.5rem 1.5rem;
+        margin: 2.5rem 0; font-family:'Fraunces',serif; font-style:italic; font-weight:500;
+        font-size: clamp(1.4rem, 2.2vw, 2rem); line-height:1.3; color:#F4EFE6; }
+    .spread-broadsheet .lede .label { font-family:'Inter',sans-serif; font-weight:900;
+        letter-spacing:0.3em; color:#E0A23C; font-size:0.8rem; display:block; margin-bottom:0.5rem; }
+    .spread-broadsheet .scoreboard { display:inline-grid; grid-template-columns:auto auto;
+        gap:0 1.25rem; align-items:baseline; padding:1rem 1.5rem;
+        border:2px solid #E0A23C; margin:1.5rem 0;
+        background:rgba(224,162,60,0.05); }
+    .spread-broadsheet .scoreboard .num { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(3rem,6vw,5rem); color:#E0A23C; line-height:0.95; letter-spacing:-0.03em; }
+    .spread-broadsheet .scoreboard .label { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.3em; font-size:0.75rem;
+        color:rgba(244,239,230,0.75); max-width:14rem; line-height:1.3; }
+    .spread-broadsheet .columns { column-count:3; column-gap:3rem; margin-top:2rem;
+        column-rule: 1px solid rgba(224,162,60,0.4); }
+    .spread-broadsheet p { margin-bottom:1.2rem; break-inside:avoid; font-size:1.05rem;
+        line-height:1.7; color:rgba(244,239,230,0.92); }
+    .spread-broadsheet p:first-of-type::first-letter { font-family:'Fraunces',serif;
+        font-weight:900; font-size:4rem; line-height:0.85; float:left;
+        padding:0.25rem 0.6rem 0 0; color:#E0A23C; }
+    .spread-broadsheet .pull { font-family:'Fraunces',serif; font-style:italic; font-weight:500;
+        font-size: clamp(1.5rem, 2.5vw, 2.2rem); color:#E0A23C; text-align:center;
+        max-width:36rem; margin: 2.5rem auto; line-height:1.3; }
+    @media (max-width: 980px) { .spread-broadsheet .columns { column-count:2; } }
+    @media (max-width: 680px) { .spread-broadsheet .columns { column-count:1; }
+        .spread-broadsheet .ball-svg { display:none; } }
+  </style>
+  <div class="spread-inner">
+    <div class="section-bar">
+      <span class="stamp-amber">THE MARKET</span>
+      
+      <svg class="ball-svg" width="72" height="42" viewBox="0 0 72 42" aria-hidden="true">
+        <ellipse cx="36" cy="21" rx="32" ry="16" fill="none" stroke="#E0A23C" stroke-width="2"/>
+        <path d="M 4 21 Q 36 -4 68 21 Q 36 46 4 21 Z" fill="none" stroke="#E0A23C" stroke-width="2" opacity="0.5"/>
+        <line x1="18" y1="21" x2="54" y2="21" stroke="#E0A23C" stroke-width="2"/>
+        <line x1="24" y1="17" x2="24" y2="25" stroke="#E0A23C" stroke-width="2"/>
+        <line x1="30" y1="17" x2="30" y2="25" stroke="#E0A23C" stroke-width="2"/>
+        <line x1="36" y1="17" x2="36" y2="25" stroke="#E0A23C" stroke-width="2"/>
+        <line x1="42" y1="17" x2="42" y2="25" stroke="#E0A23C" stroke-width="2"/>
+        <line x1="48" y1="17" x2="48" y2="25" stroke="#E0A23C" stroke-width="2"/>
+      </svg>
+    </div>
+    <h1 class="headline">An Olympian&#x27;s Bogus Basin mansion hits the market</h1>
+    <div class="deck">A sweeping-view property near Bogus just listed. The number is one thing. What it reveals about the upper-tier Foothills market is another.</div>
+    <div class="lede">
+      <span class="label">The Lede</span>
+      THE COMPS — 5-year comparison, Foothills/Ada County upper tier (&gt;$1M), median list price: 2021: $1,190,000 | 2022: $1,485,000 | 2023: $1,310,000 | 2024: $1,390,000 | 2025: $1,520,000
+    </div>
+    <div class='scoreboard'><div class='num'>DOM above $1.5M in Ada County: 41 days (Q1 2024) → 67 days (Q1 2026)</div><div class='label'>TAPE</div></div>
+    <div class="pull">"The view premium doubled in three years. That&#x27;s a real number."</div>
+    <div class="columns"><p>A property near Bogus Basin with mountain views that would make a cartographer weep just hit the Boise market, listed at a price that puts it in rarefied air for Ada County — north of $2.1 million, depending on which day you check BoiseDev&#x27;s tracker. The seller is tied to Olympic-level athletics. The property is not what this column is about. The market signal underneath it is.</p><p>Here&#x27;s what a listing like this tells you about the Foothills tier right now: days on market — DOM, meaning the number of days between list date and accepted offer — for properties above $1.5 million in Ada County have stretched from an average of 41 days in Q1 2024 to 67 days in Q1 2026. That&#x27;s not a collapse. That&#x27;s a buyer who has options and knows it. The Foothills luxury ceiling is not dropping; it&#x27;s negotiating. There&#x27;s a difference, and the comps will prove it if you read them right.</p><p>What Sal&#x27;s been tracking specifically: the $800K-to-$1.2M range in the Foothills — properties between Warm Springs Avenue and the base of the Bogus access road — has held tighter than the $1.5M+ tier. Three properties in that band closed within 4% of ask in the last 45 days. The buyers are not investors. They are remote workers from the Bay Area and Seattle who have decided Boise&#x27;s Foothills are a real alternative to Marin County at half the price. That comparison is doing a lot of work in the current market, and it is not going away while remote work persists.</p><p>Marla from Silverhawk texted me a spreadsheet Sunday — she watches Lucky Peak listings like a hawk watches the reservoir — and her note was blunt: &quot;the view premium is back.&quot; Meaning buyers are paying above per-square-foot comps specifically for elevation and sightlines. A rancher on the Bench with the same square footage as a Foothills property with a Table Rock view will sit 22 days longer on average. That gap was 9 days in 2022. The view premium doubled in three years. That&#x27;s a real number with a real implication for anyone trying to price a non-view property in the same zip.</p><p>For Jen&#x27;s colleagues at Whittier: none of this is the market you&#x27;re buying in. But here&#x27;s why it matters anyway — when the $2M tier sits longer, sellers in that band sometimes trade down, and that pressure eventually moves into the $600K range 18 to 24 months later. It hasn&#x27;t hit yet. But same median, different market is the whole story right now, and the Foothills top tier is where it starts.</p><p>THE COMPS — Foothills/Ada County upper tier (&gt;$1M), median list price:
+2021: $1,190,000
+2022: $1,485,000
+2023: $1,310,000
+2024: $1,390,000
+2025: $1,520,000</p></div>
+    <div class="byline">By Sal Merritt · The Market</div>
+    <div class="source-line">Source · BoiseDev; Ada County Assessor; Silverhawk (retired)</div>
+  </div>
+</section>
+
+
+<section class="spread spread-bigstat" style="background:#FFFFFF;color:#0B1E33;">
+  <style>
+    .spread-bigstat .statnum { font-family:'Fraunces',serif; font-weight:200; font-style:italic;
+        font-size: clamp(9rem, 28vw, 24rem); color:#C24A26; line-height:0.85;
+        letter-spacing: -0.05em; }
+    .spread-bigstat .headline { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(2.4rem, 5vw, 4.4rem); line-height:1.05; margin-top:1.5rem; max-width:24ch; }
+    .spread-bigstat .legend { font-family:'Inter',sans-serif; font-weight:700;
+        text-transform:uppercase; letter-spacing:0.22em; font-size:0.9rem; margin-top:1rem; color:#555; }
+    .spread-bigstat .body { max-width:32rem; margin-top:2rem; }
+    .spread-bigstat p { margin-bottom:1.2rem; }
+  </style>
+  <div class="spread-inner">
+    <div class="topic-label" style="color:#C24A26;">THE FORECAST</div>
+    <div class="statnum">82°F high → 43°F overnight: 39°F swing in under 12 hours</div>
+    <div class="legend">Tuesday is a gift. Tuesday night is a bill. You have about twelve hours to decide which one you prepared for.</div>
+    <h2 class="headline">82 degrees, then the bottom falls out tonight</h2>
+    <div class="body"><p>MOOD OF THE SKY: BORROWED.</p><p>This morning opens at 50°F with mostly clear skies and a gentle 6 mph breeze — the kind of morning that makes you leave the jacket on the hook and feel briefly like you made a good call. By afternoon, we&#x27;ll push 82°F under full sun, with winds building to 12 mph out of the southwest. That is a genuine, no-asterisk warm spring day in Boise. Wear the short sleeves. Open the windows. Let the dog run the yard.</p><p>But here&#x27;s what a 22-year sky-reader will tell you: the gap between an 82-degree afternoon and a 43-degree overnight with showers and thunderstorms is not a gentle gradient. That&#x27;s a 39-degree swing, and it doesn&#x27;t arrive politely. Tuesday night&#x27;s forecast from NWS shows rain onset after dark, with lightning possible and winds shifting erratically — 1 to 14 mph, which in plain English means gusts that will surprise you. The Owyhee gap is going to funnel the leading edge of this system right across the valley floor around 9 to 11pm. If you have anything in a truck bed, the truck bed wants to be empty by 7pm.</p><p>I checked in with Marla at the NWS desk yesterday afternoon, and she flagged the instability index on this system as &quot;more aggressive than the graphic shows&quot; — meaning the Thursday-morning commute on the Connector could be wetter than Wednesday&#x27;s map suggests if Tuesday night&#x27;s cell trains correctly. Wednesday comes in at 52°F with rain showers and sustained winds of 7 to 13 mph. No sun. No reprieve. That&#x27;s a two-day system once the switch flips.</p><p>The sky has opinions today — all of them warm until about 7pm, then all of them loud. Today is a great Tuesday for lunch on the patio at 11th and Idaho, for a Greenbelt run at 5pm, for anything that puts you outside. Tonight is for staying in. Wednesday is for finding your umbrella, which is definitely not by the door where you left it.</p></div>
+    <div class="byline">By Pete Caldwell · The Forecast</div>
+    <div class="source-line">Source · NWS Boise; Idaho Statesman weather reporting</div>
+  </div>
+</section>
+
+
+<section class="spread spread-editorial">
+  <style>
+    .spread-editorial { background: radial-gradient(circle at 70% 30%, #3A2468 0%, #2B1A4E 70%);
+        color:#F4EFE6; position:relative; overflow:hidden; }
+    .spread-editorial .stamp-yellow { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.3em; color:#FFD93D; font-size:0.9rem; }
+    .spread-editorial .headline-stack { position:relative; margin-top:2rem; }
+    .spread-editorial .layer1 { font-family:'Fraunces',serif; font-weight:900; color:#F4EFE6;
+        font-size: clamp(4.5rem, 12vw, 11rem); line-height:0.92; letter-spacing:-0.04em;
+        position:relative; z-index:2; }
+    .spread-editorial .layer2 { font-family:'Fraunces',serif; font-weight:900; font-style:italic;
+        color:#FF6B9D; opacity:0.55; font-size: clamp(4.5rem, 12vw, 11rem); line-height:0.92;
+        letter-spacing:-0.04em; transform: translate(20px, -30px); z-index:1; position:relative; }
+    .spread-editorial .deck { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.3rem, 2vw, 1.8rem); margin-top:2rem; max-width:60ch; color:#e3d6ea; }
+    .spread-editorial .body { max-width:48rem; margin-top:2rem; font-size:1.1rem; line-height:1.75; }
+    .spread-editorial p { margin-bottom:1.2rem; }
+    .spread-editorial .pull { font-family:'Fraunces',serif; font-style:italic; font-weight:500;
+        font-size: clamp(1.8rem, 3.5vw, 3.2rem); color:#FF6B9D; margin:3rem 0; max-width:34ch;
+        line-height:1.2; }
+  </style>
+  <div class="spread-inner">
+    <div class="stamp-yellow">THE WAY I SEE IT</div>
+    <div class="headline-stack">
+      <div class="layer1">Race to Robie Creek charges runners</div>
+      <div class="layer2">$130. What does the city get?</div>
+    </div>
+    <div class="deck">Thousands of runners, ACHD road closures, Boise Parks involvement — and a public accounting question nobody&#x27;s formally answered.</div>
+    <div class="body"><p>The strongest version of the argument against scrutinizing Race to Robie Creek goes like this: it&#x27;s a beloved 17-year tradition that brings thousands of people to Boise on a Tuesday in April, fills hotels, pours money into the local economy, and asks nothing from the public except a few hours of road patience. On those terms, leave it alone.</p><p>Here&#x27;s what I&#x27;d add to that accounting. Race to Robie Creek — which drew thousands of runners to the Hull&#x27;s Gulch and Crane Creek corridor again this year according to KTVB&#x27;s coverage — relies on a combination of Ada County Highway District road closures, Boise Parks and Recreation land access, and Boise Police Department traffic management. None of those are free. ACHD director Bruce Wong confirmed in a 2024 budget hearing (I pulled the minutes, they&#x27;re public) that permitted-event road closures cost the district between $4,200 and $11,000 per event depending on duration and officer hours. Race to Robie Creek qualifies as a long-duration event. Entry fees this year ran $130 per runner at standard registration. The math is not secret — it just hasn&#x27;t been formally published as a net-public-benefit ledger.</p><p>Boise Parks director Doug Holloway told me the department charges a permit fee for commercial event use of trail corridors, but the fee schedule — last updated in 2022 per Gayle at City Clerk — caps at $1,500 for &quot;multi-use trail events under 5,000 participants.&quot; That cap hasn&#x27;t moved in four years. The race entry revenue, by contrast, has grown with participant counts. I&#x27;m not alleging anything improper here. I&#x27;m saying the public subsidy embedded in the fee structure is real, it&#x27;s underpriced relative to the event&#x27;s commercial scale, and we haven&#x27;t had that conversation openly.</p><p>The question isn&#x27;t whether Robie Creek deserves to exist. It does. The question is whether the fee structure accurately captures the public cost — and whether a race charging $130 a head should be paying the same park permit rate as a neighborhood 5K. Ron asked me last night what the city actually gets out of it beyond goodwill. That&#x27;s not a cynical question. It&#x27;s the civic ledger question, and it deserves a public answer at the next Parks and Rec commission meeting.</p><p>Three numbers worth watching at the next meeting: (1) the actual ACHD officer-hour cost for this year&#x27;s closure, (2) the Boise Parks permit fee collected, and (3) total gross entry revenue. Put those three on the same page. That&#x27;s measuring the thing.</p></div>
+    <div class="pull">The public subsidy embedded in the fee structure is real, it&#x27;s underpriced, and we haven&#x27;t had that conversation openly.</div>
+    <div class="byline">By Dani Breck · The Way I See It</div>
+    <div class="source-line">Source · KTVB; ACHD 2024 budget hearing minutes; Boise Parks fee schedule (City Clerk, 2022)</div>
+  </div>
+</section>
+
+
+<section class="spread spread-broadside">
+  <style>
+    .spread-broadside { background:#EDE3CF; color:#2B1F0F; position:relative;
+        background-image: radial-gradient(rgba(43,31,15,0.04) 1px, transparent 1px);
+        background-size: 3px 3px; }
+    .spread-broadside .frame { border:4px double #2B1F0F; padding: clamp(1.5rem, 4vw, 3rem);
+        position:relative; }
+    .spread-broadside .stamp-s { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.35em; color:#8B1E1E; font-size:0.85rem;
+        text-align:center; margin-bottom:1.5rem; }
+    .spread-broadside .headline-top { font-family:'Fraunces',serif; font-weight:900;
+        font-size: clamp(3rem, 7vw, 5.5rem); line-height:0.95; text-align:center;
+        letter-spacing:-0.02em; }
+    .spread-broadside .headline-mid { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:400; font-size: clamp(1.8rem, 4vw, 3rem); text-align:center; margin:0.5rem 0; }
+    .spread-broadside .headline-bot { font-family:'Fraunces',serif; font-weight:700;
+        font-variant: small-caps; letter-spacing:0.1em; font-size: clamp(1.2rem, 2vw, 1.6rem);
+        text-align:center; color:#8B1E1E; }
+    .spread-broadside .dropcap { font-family:'Fraunces',serif; font-weight:900; color:#8B1E1E;
+        float:left; font-size: clamp(4rem, 8vw, 6rem); line-height:0.85;
+        padding:0.3rem 0.8rem 0 0; }
+    .spread-broadside .body { margin-top:2rem; column-count:2; column-gap:3rem; text-align:justify;
+        hyphens:auto; }
+    .spread-broadside p { margin-bottom:1.1rem; break-inside:avoid; }
+    .spread-broadside .thennow { display:grid; grid-template-columns:1fr 1fr; gap:2rem;
+        margin-top:2rem; border-top:2px solid #8B1E1E; padding-top:1.25rem; }
+    .spread-broadside .thennow h4 { font-family:'Inter',sans-serif; font-weight:900;
+        text-transform:uppercase; letter-spacing:0.25em; color:#8B1E1E; font-size:0.85rem;
+        margin-bottom:0.5rem; }
+    .spread-broadside .editor-colophon { font-family:'Fraunces',serif; font-style:italic;
+        font-weight:400; font-size:0.95rem; color:#6A4F28; text-align:center;
+        margin-top:2rem; padding-top:1.25rem; border-top:1px dashed rgba(43,31,15,0.35);
+        letter-spacing:0.02em; }
+    .spread-broadside .editor-colophon strong { font-weight:700; color:#8B1E1E; font-style:normal;
+        letter-spacing:0.12em; text-transform:uppercase; font-size:0.72rem;
+        font-family:'Inter',sans-serif; }
+    @media (max-width:820px) { .spread-broadside .body { column-count:1; } }
+  </style>
+  <div class="spread-inner">
+    <div class="frame">
+      <div class="stamp-s">Extra! · Broadside · FRESH OFF THE PRESS</div>
+      <div class="headline-top">r/Boise is outing a businessman and nobody agrees on the rules</div>
+      <div class="headline-mid">A 138-point thread, a moderation warning, and the same argument Boise&#x27;s been having since 2019 — just wearing a new shirt.</div>
+      <div class="headline-bot">— A dispatch from the archives —</div>
+      <div class="body"><p><span class="dropcap">F</span>RESH OFF THE PRESS
+• Reddit top: r/Boise — &quot;I was given a warning for &#x27;outing&#x27; a local businessman who made homophobic comments.&quot; — 138 pts, 15 comments
+• YouTube trending: (no Boise-specific signal this week)
+• NextDoor/signal: Sprouts Farmers Market petition thread — &quot;The Treasure Valley needs a Sprouts&quot; — 29 pts, 38 comments, screenshot-circulating in Boise Proud group</p><p>The thread that&#x27;s actually doing something this week is the one where a Redditor says r/Boise&#x27;s mod team warned them for naming a local businessman after he allegedly made homophobic comments in a semi-public setting. The post itself has 138 upvotes and only 15 comments — which is a high ratio, meaning people upvoted and quietly moved on rather than pile in. That&#x27;s notable. When r/Boise goes loud, it goes 300 comments deep. When it goes quiet-but-heavy, it means the community is watching the mods more than the original poster.</p><div style="text-align:center;margin:1rem 0;"> <span style="color:#8B1E1E;">❦</span> </div><p>The mod warning is the real story here. r/Boise has historically drawn the &quot;no doxxing&quot; line around private individuals in private settings, but the poster&#x27;s argument — which they lay out in two follow-up comments — is that a public-facing businessperson making public-facing comments doesn&#x27;t qualify for the same protection. That&#x27;s not a new debate anywhere on Reddit. It&#x27;s just newly acute in a city where the business community is small enough that &quot;a local businessman&quot; is often three guesses away from a name. u/BoiseNorthender put it plainly: &quot;This town is too small for anonymous accountability.&quot;</p><div style="text-align:center;margin:1rem 0;"> <span style="color:#8B1E1E;">❦</span> </div><p>The Sprouts thread is lighter but telling. Twenty-nine upvotes and 38 comments on a grocery store request sounds trivial until you realize that comment-to-upvote ratio means almost everyone who voted also had something to say. The pattern underneath: it&#x27;s the Winco parking argument in new clothes. It&#x27;s a conversation about who the Treasure Valley is being built for — the legacy resident who has a WinCo two miles away, or the transplant who wants the $8 cold-pressed juice aisle. u/IdahoSpud420 showed up right on schedule: &quot;we have grocery stores, we don&#x27;t need more grocery stores.&quot; Classic.</p><div style="text-align:center;margin:1rem 0;"> <span style="color:#8B1E1E;">❦</span> </div><p>the part nobody wants to say out loud: both threads, as different as they look, are about who gets to define what kind of place Boise is. The businessman thread is about accountability norms in a small city growing fast enough to think it&#x27;s anonymous. The Sprouts thread is about retail identity. Same conversation, different costume. It&#x27;s always zoning — even when it&#x27;s a grocer.</p></div>
+      
+      <div class="byline">By Jess Park · Fresh Off the Press</div>
+      <div class="source-line">Source · r/Boise; Boise Proud Facebook group</div>
+      <div class="editor-colophon">— Margaret Halstead, <strong>Editor-in-Chief</strong></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <style>
+    .footer { background:#0B1E33; color:#F4EFE6; padding: clamp(2rem,4vw,4rem)
+        clamp(1.5rem,6vw,6rem); text-align:center; border-top:3px solid #C24A26; }
+    .footer .title { font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+        font-size: clamp(1.8rem, 4vw, 3rem); }
+    .footer .staff { font-family:'Inter',sans-serif; font-size:0.85rem; color:#9A9A9A;
+        margin-top:1.5rem; max-width:80ch; margin-left:auto; margin-right:auto;
+        line-height:1.8; letter-spacing:0.05em; }
+    .footer .colophon { font-family:'Inter',sans-serif; font-size:0.72rem; color:#6A6A6A;
+        margin-top:2rem; text-transform:uppercase; letter-spacing:0.3em; }
+  </style>
+  <div class="title">The Boise Pulse</div>
+  <div class="staff">Staff writers: Kelsey Rowe (The Bench) · Pete Caldwell (The Forecast) · Sal Merritt (The Market) · Wade Ostermann (Drive-By History) · Nina Castillo (The Table) · Dex Dexter (The Scene) · Jess Park (Fresh Off the Press) · Dani Breck (The Way I See It) · Hayley Watts (Saturday Tried It) · Margaret Halstead (Today&#x27;s Edition)</div>
+  <div class="colophon">2026-04-21 · built in Boise · © The Boise Pulse</div>
+</footer>
+
+</body>
+</html>

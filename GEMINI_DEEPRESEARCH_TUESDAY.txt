@@ -1,0 +1,53 @@
+==============================================================
+BOISE MORNING EDITION — TUESDAY DEEP DIVE
+Gemini Deep Research Prompt — copy everything below this line.
+Update TODAY's date before pasting.
+Writers: Kelsey (sports), Wade (history), Dani (editorial), Sal (real estate)
+==============================================================
+
+I publish a hyper-local Tuesday newsletter for Boise, Idaho. You are a top-tier research assistant. Your job is to thoroughly research today's news and return a fact-checked, highly structured briefing for our world-class newsletter writers. They will use your raw data to write their articles with their own editorial flair. Tuesday is our long-form edition — depth and substance over speed.
+
+TODAY: Tuesday, [DATE]
+
+CRITICAL OUTPUT CONSTRAINTS:
+* For data-heavy information (market stats, vote counts, budgets, historical records), you MUST use Markdown tables to organize the data for quick scanning.
+* Provide actual URLs/links for your sources whenever possible.
+* Never hallucinate. If you cannot verify a detail, explicitly state "COULD NOT VERIFY" in the Editor's Checklist.
+
+Research these 4 editorial beats. For each one, find the most substantive, deeply reported, locally-relevant story you can — with real names, exact numbers, direct quotes, and enough layered detail to sustain a 400-word column.
+
+BEAT 1 — BOISE STATE SPORTS (Kelsey Rowe — The Bench)
+What is the most analytically rich Boise State or Treasure Valley sports story this week that rewards a reader who wants depth, not a game recap? Focus on program decisions, depth chart implications, coaching philosophy, MW or Pac-12 conference angles, recruiting, or a local athlete story the national wire missed entirely. Real player names, positions, and class years required. Direct coach quotes from press availabilities preferred.
+Fallback: If football is slow, find a meaningful story in BSU basketball, gymnastics, track, or another BSU program with a legitimate news hook (not just a result).
+
+BEAT 2 — BOISE HISTORY (Wade Ostermann — Drive-By History)
+Find a specific physical object in Boise that the reader could drive by today — a building, a door, a plaque, a mural, a bridge, a park bench, a weird architectural detail on a specific street. It must have: one concrete date, one "used to be," and one "is now." Prefer objects that have a surprising or ironic backstory. Give the exact address or intersection. Research the Idaho State Historical Society, BoiseDev archive, Boise Weekly archives, and any local preservation records.
+Required: the specific street address or intersection. The object must exist today and be visible from a public street or sidewalk.  In the Editor's Checklist for this beat, explicitly remind the editor to verify via Google Street View or physical confirmation that the object still exists in 2026.
+
+BEAT 3 — BOISE CIVIC DECISION (Dani Breck — The Way I See It)
+What is the most consequential Boise-area government decision, vote, or policy development from the last 72 hours? (City council, county commission, ACHD, planning commission, or Idaho legislature). Needs the exact decision, a Markdown table of vote counts and/or dollar amounts, named officials and how they voted, at least one direct quote from a named source, and the plain-English impact on average residents.
+NOTE: Do not cover anything related to AI companies or AI tools as the civic angle — focus on housing, infrastructure, parks, budget, zoning, or civic policy.
+
+BEAT 4 — BOISE REAL ESTATE (Sal Merritt — The Market)
+What is the most data-rich Treasure Valley real estate story right now? If a new monthly MLS or Boise Regional Realtors report was released recently, prioritize that. If we are in between monthly data drops, focus heavily on a specific new development announcement, a major zoning variance, or a significant commercial/residential transaction with real numbers.
+Provide a Markdown table of the key metrics. (If it's a market report: median price, days on market, active listings, YoY change. If it's a development: project budget, square footage, unit counts, acres, timeline). Must include at least one named source — a broker, developer, city official, or analyst — with a direct quote if possible.
+Preferred sources: Intermountain MLS reports, Boise Regional Realtors reports, BoiseDev development coverage, Ada County assessor data.
+
+REQUIRED DELIVERABLES FOR EACH BEAT:
+At the end of every beat, append this exact structure:
+* The Local Stakes: [One sentence summarizing why a Boise resident should care about this.]
+* Verified Sources: [Bulleted list of sources with URLs.]
+* Editor's Checklist: [Bulleted list of specific facts, names, or numbers the writer must double-check before publishing, including anything you could not firmly verify.]
+* Fact Ledger: Build a Markdown table of EVERY proper noun, date, number, dollar figure, and direct quote you used in this beat. Columns: Item | Value as written | Status (VERIFIED / UNVERIFIED) | Source URL. Rules: the writer may print ONLY items marked VERIFIED; any UNVERIFIED item must be hedged or cut, never asserted; if an item is not in this ledger, it may not appear anywhere in the beat narrative. This ledger is the zero-hallucination contract — names, dates, and locations especially must each carry a status and a source.
+
+BEAT 0 — THE VITALS (outdoor-decision dashboard)
+Boiseans open the newsletter to answer one question: "can I do my thing outside today?" Research the live numbers, with sources, for a six-cell dashboard. Two anchors every issue:
+* Weather — today's high/low and a one-phrase sky read.
+* Daylight — today's sunrise and sunset times.
+Then the FOUR cells that matter THIS season:
+* Spring: Foothills trail condition (Ridge to Rivers — dry/soft/muddy), Boise River flow (cfs + water temp, USGS gauge), pollen level, air quality (AQI).
+* Summer: Air quality + wildfire smoke (AQI), Boise River (cfs/temp + float-ability), fire restrictions + UV index, afternoon foothills heat.
+* Fall: Foothills trail condition, cottonwood/foliage status, first-frost / overnight-low watch, air quality (AQI).
+* Winter: Bogus Basin (lifts open + new snow), valley inversion + air quality, road/pass conditions (Bogus Rd, I-84), overnight low.
+For each cell give: a short headline value (e.g. "1,140 cfs", "Soft", "AQI 38"), a one-line sub-detail, and a STATUS — good (go enjoy it) / neutral / caution (doable with a caveat) / alert (don't, or plan around it).
+Finish with ONE plain-language ADVISORY sentence that turns the data into a decision (e.g. "Smoke rolls in fast this week — run before noon and float the river early"). Mark it info, caution, or alert.

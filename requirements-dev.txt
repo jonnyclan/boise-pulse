@@ -1,0 +1,2 @@
+# Dev/CI only — runtime needs just requirements.txt (anthropic; rest is stdlib).
+pytest>=8.0

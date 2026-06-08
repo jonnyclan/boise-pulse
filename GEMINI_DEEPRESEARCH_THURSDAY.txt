@@ -1,0 +1,53 @@
+==============================================================
+BOISE MORNING EDITION — THURSDAY WEEKEND GUIDE
+Gemini Deep Research Prompt — copy everything below this line.
+Update TODAY's date before pasting.
+Writers: Nina (food), Dex (arts), Pete (weather), Jess (trending), Hayley (lifestyle)
+==============================================================
+
+I publish a hyper-local Thursday newsletter for Boise, Idaho. You are a top-tier research assistant. Your job is to thoroughly research today's news and return a fact-checked, highly structured briefing for our world-class newsletter writers. They will use your raw data to write their articles with their own editorial flair. Thursday is our Weekend Guide — readers open this to plan Friday through Sunday. Lead with events, experiences, and things worth going out for.
+
+TODAY: Thursday, [DATE]
+
+CRITICAL OUTPUT CONSTRAINTS:
+* For data-heavy information (event schedules, weather forecasts, menu prices, show times), you MUST use Markdown tables to organize the data for quick scanning.
+* Provide actual URLs/links for your sources whenever possible.
+* Never hallucinate. If you cannot verify a detail, explicitly state "COULD NOT VERIFY" in the Editor's Checklist.
+
+Research these 5 editorial beats. For each one, find the most weekend-relevant, specific, locally-rooted story you can — with real names, exact numbers, direct quotes, and enough concrete detail that a reader can act on it this weekend.
+
+BEAT 1 — BOISE FOOD & DRINK (Nina Castillo — Nina's Table)
+What is the most specific, newsworthy Boise restaurant, bar, food hall, chef, or market story this week? Must be a named Boise establishment — a new opening, closing, chef departure or arrival, major menu pivot, pop-up launch, or collaboration. Not a regional food trend piece. Include the exact name, address, hours, price range, and what specifically changed or opened. Find the chef or owner's name. Get a direct quote if BoiseDev or Idaho Statesman covered it — they almost always interview the owner.
+Fallback: If no major opening/closing exists, find the single best food or drink experience worth going to this weekend — a pop-up, a tasting, a limited menu — with specific details a foodie would need.
+
+BEAT 2 — BOISE ARTS & CULTURE (Dex Dexter — The Scene)
+What is the most compelling Boise arts, music, gallery, film, or cultural event happening this weekend? Must be a specific Boise venue, artist, or show — not a generic "arts scene" trend piece. Prefer music performances, gallery openings, theatrical productions, or a specific artist's local appearance. Find a lyric, artist statement, review quote, or interview excerpt worth putting in a blockquote. Include venue name, address, ticket price, and show time.
+Fallback: If nothing notable is performing, find a local artist or creative person doing something interesting in Boise this week — a studio open house, a mural unveiling, a residency announcement.
+
+BEAT 3 — BOISE WEATHER WEEKEND FORECAST (Pete Caldwell — The Forecast)
+What is the official NWS forecast for Boise today and this weekend (Thursday afternoon through Sunday)? Provide a Markdown table showing exact temps, wind speed and direction, precipitation timing, and sky conditions for Thursday (today), Friday, Saturday, and Sunday. Below the table, explain what this weather means practically for weekend plans in Boise. Specifically mention how it will impact local recreation, for example: Boise River conditions (flow rates, is it safe for floating/wading, fishing activity), the Greenbelt river trails (any flooded underpasses?), Ridge to Rivers trail conditions (mud/closures), farmers markets, outdoor patio dining tonight, or Bogus Basin access.
+
+BEAT 4 — BOISE COMMUNITY PULSE (Jess Park — Fresh Off the Press)
+What is the Boise community most fired up about online right now heading into the weekend (local Reddit, local forums, NextDoor)? Find the specific topic driving local conversation, the underlying local tension it reveals, the full range of opinions, and any real-world news or documents underneath the discussion. Must be something with enough weekend relevance that a Boisean would bring it up at a barbecue or farmers market Saturday.
+
+BEAT 5 — TREASURE VALLEY FAMILY WEEKEND FIND (Hayley Watts — Saturday Tried It)
+What is the single best locally-owned family experience in the Meridian/Boise/Eagle area this weekend for a family with active kids (ages 5–13)? Weekend focus — something to do Saturday or Sunday. National chains don't count. Need exact location, owner/contact name, prices, hours, what makes it specifically kid-friendly, and the honest catch (parking, wait, weather-dependency, age limit).
+
+REQUIRED DELIVERABLES FOR EACH BEAT:
+At the end of every beat, append this exact structure:
+* The Local Stakes: [One sentence summarizing why a Boise resident should care about this.]
+* Verified Sources: [Bulleted list of sources with URLs.]
+* Editor's Checklist: [Bulleted list of specific facts, names, or numbers the writer must double-check before publishing, including anything you could not firmly verify.]
+* Fact Ledger: Build a Markdown table of EVERY proper noun, date, number, dollar figure, and direct quote you used in this beat. Columns: Item | Value as written | Status (VERIFIED / UNVERIFIED) | Source URL. Rules: the writer may print ONLY items marked VERIFIED; any UNVERIFIED item must be hedged or cut, never asserted; if an item is not in this ledger, it may not appear anywhere in the beat narrative. This ledger is the zero-hallucination contract — names, dates, and locations especially must each carry a status and a source.
+
+BEAT 0 — THE VITALS (outdoor-decision dashboard)
+Boiseans open the newsletter to answer one question: "can I do my thing outside today?" Research the live numbers, with sources, for a six-cell dashboard. Two anchors every issue:
+* Weather — today's high/low and a one-phrase sky read.
+* Daylight — today's sunrise and sunset times.
+Then the FOUR cells that matter THIS season:
+* Spring: Foothills trail condition (Ridge to Rivers — dry/soft/muddy), Boise River flow (cfs + water temp, USGS gauge), pollen level, air quality (AQI).
+* Summer: Air quality + wildfire smoke (AQI), Boise River (cfs/temp + float-ability), fire restrictions + UV index, afternoon foothills heat.
+* Fall: Foothills trail condition, cottonwood/foliage status, first-frost / overnight-low watch, air quality (AQI).
+* Winter: Bogus Basin (lifts open + new snow), valley inversion + air quality, road/pass conditions (Bogus Rd, I-84), overnight low.
+For each cell give: a short headline value (e.g. "1,140 cfs", "Soft", "AQI 38"), a one-line sub-detail, and a STATUS — good (go enjoy it) / neutral / caution (doable with a caveat) / alert (don't, or plan around it).
+Finish with ONE plain-language ADVISORY sentence that turns the data into a decision (e.g. "Smoke rolls in fast this week — run before noon and float the river early"). Mark it info, caution, or alert.

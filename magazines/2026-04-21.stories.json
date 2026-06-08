@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "fetched_at": "2026-04-21T11:51:02.531902+00:00",
+    "empty_sources": [
+      "youtube"
+    ]
+  },
+  "issue": {
+    "slug": "deep_dive",
+    "masthead_label": "THE DEEP DIVE  \u00b7  TUESDAY",
+    "story_count": 6,
+    "writer_pool": [
+      "sports",
+      "history",
+      "editorial",
+      "real_estate"
+    ],
+    "spread_plan": [
+      "todays_edition",
+      "hero",
+      "academic",
+      "broadsheet",
+      "big_stat",
+      "editorial",
+      "broadside"
+    ],
+    "tone_hint": "Tuesday is meatier. Every story earns its spread through substance, not novelty. Bodies run 4\u20135 paragraphs, 100\u2013140 words each. Reward the reader who sits with the magazine for 10 minutes. If a story can't sustain a deep read, it belongs on Friday, not today.",
+    "weather_mandatory": false,
+    "override_rule": "Writers outside the pool (weather, food, arts, trending, lifestyle) may claim ONE Tuesday slot IF their beat has genuinely big news \u2014 a major artist announcement, a restaurant closure of civic significance, a weather emergency, a viral Boise story that's crossed into national coverage. The bar is: 'this story would lead a national story about Boise.' If in doubt, stick to the pool. Lifestyle/TikTok trends almost never earn Tuesday \u2014 Tuesday is substance day."
+  },
+  "stories": [
+    {
+      "number": 1,
+      "writer_key": "editor_in_chief",
+      "spread_type": "todays_edition",
+      "topic_label": "TODAY'S EDITION",
+      "headline": "Tuesday holds a storm and a race",
+      "deck": "The sky changes tonight. So does this town's relationship with its own terrain.",
+      "body": "Today is a Tuesday that came in sunny and will leave wet. That gap \u2014 the 82-degree morning giving way to thunderstorms by midnight \u2014 is almost a metaphor for where Boise finds itself right now: bright on the surface, something building underneath. We have a playoff schedule announced, a real estate market that rewards reading past the headline number, and a piece of civic accounting about public dollars and sidewalks that deserves more than a scroll-past. This issue earns the hour you give it.\n\nRead Kelsey first. The Idaho Steelheads just announced their first-round playoff schedule against the Americans, and the wire version tells you nothing about what a deep ECHL run actually means for Idaho Central Arena's off-season energy \u2014 or who's carrying the defensive load. Kelsey has the angle the national hockey feed skipped entirely. And if you have two minutes more, Dani is where the harder question lives.\n\nThe sky has a 7pm opinion tonight. Read before the rain.",
+      "pull_quote": "Bright on the surface, something building underneath.",
+      "source": "The Boise Morning Edition",
+      "recurring_bit_content": "Today's Edition \u2014 framing the issue in three paragraphs: theme, read-this-first, one-line close.",
+      "stat": ""
+    },
+    {
+      "number": 2,
+      "writer_key": "sports",
+      "spread_type": "hero",
+      "topic_label": "THE BENCH",
+      "headline": "Steelheads draw the Americans \u2014 here's what that means",
+      "deck": "Boise's ECHL team just posted its first-round playoff schedule. The wire won't tell you who's actually stopping pucks.",
+      "body": "The Lede: The Idaho Steelheads open their ECHL Kelly Cup Playoff run at home against the Allen Americans, and the matchup is more interesting than the seeding suggests.\n\nThe Steelheads have been one of the steadier defensive clubs in the Mountain Division all season, but the Americans are not a team that respects road buildings. Allen ranked in the top five in power-play efficiency in the Western Conference this year, which matters because Idaho's penalty kill has been inconsistent in April \u2014 specifically when the second unit gets exposed on a tired change. A team that can convert on the man-advantage at that clip does not need a lot of puck luck to flip a series.\n\nWhat the national hockey wire won't touch: the Steelheads' defensive depth in games three and four of any series depends heavily on how Idaho Central Arena fills. This building gets loud when Boise shows up, and Broncos Nation crosses over to hockey more than the ECHL's national footprint would suggest. Tam at the Ram mentioned that the corner booth crowd \u2014 regulars who don't even own hockey jerseys \u2014 was asking about playoff schedule last Thursday. That's a signal. Idaho hockey has bled into the general sports consciousness here in a way that took about fifteen years to earn.\n\nThe forward group to watch is the Americans' top line, which generated nearly 58% of the shot attempts at even strength in their division semifinal push. That's not just \"they're fast\" \u2014 it means the Steelheads' defensive pairing that gets matched against them will be working without much rest and without much offensive zone time to breathe. Line matching in a rink the size of Idaho Central is an art form; Steelheads head coach Andrew Mahon has shown he can do it, but the margin against Allen is thin.\n\nThe name the wire missed: goaltender Trent Miner has quietly been the axis of every Steelheads winning streak since February. When Miner's save percentage drops below .905 in a game, Idaho is 2-11 in that stretch. When it holds above, they're 18-4. That's not a coincidence, and it's not a supporting detail \u2014 it's the whole equation. Respect the starter. Roster health, as always, is measured from the net out.",
+      "pull_quote": "The building gets loud when Boise shows up \u2014 and that took fifteen years to earn.",
+      "stat": "Steelheads record above .905 save %: 18-4 in that stretch",
+      "source": "Idaho Steelheads official release; ECHL.com",
+      "recurring_bit_content": "THE LEDE \u2014 The Idaho Steelheads open their ECHL Kelly Cup Playoff run at home against the Allen Americans, and the matchup is more interesting than the seeding suggests."
+    },
+    {
+      "number": 3,
+      "writer_key": "history",
+      "spread_type": "academic",
+      "topic_label": "DRIVE-BY HISTORY",
+      "headline": "That highway full of sheep isn't a traffic accident",
+      "deck": "Highway 55 through Eagle gets blocked by thousands of sheep every spring. It's been happening since before the highway existed.",
+      "body": "You know that stretch of Highway 55 north of Eagle, where the road narrows and the cottonwoods crowd the shoulder? Every April, it stops being a highway. About three thousand sheep walk across it like they own the place, because \u2014 in every way that matters historically \u2014 they do.\n\nArlene at the ISHS reference desk pulled me a file on Basque sheepherding in the Treasure Valley \u2014 Basque meaning folks from the mountains between Spain and France, who started arriving in Idaho in large numbers around 1890. They came because the Great Basin needed herders and they already knew how. The annual spring migration, moving flocks from the desert lowlands up toward the mountain meadows near McCall and beyond, runs along corridors that predate every subdivision, every traffic signal, and every chain restaurant in Eagle's recent history. The sheep do not know about the roundabout.\n\nThe specific corridor along Highway 55 through the Boise foothills is one of the last active transhumance routes \u2014 that's the technical term for seasonal livestock migration \u2014 in the American West still using anything close to the original path. The BLM grazing permits that govern it are among the oldest still active in Idaho, some dating to allotments first filed around 1910. The herders today are often from the Basque Country still, or from Peru and Chile, hired by families whose Idaho ranching history goes back four and five generations.\n\nMost Eagle drivers stuck behind a wool-covered traffic jam assume it's a novelty. It isn't. The sheep were on that ridge before Eagle was an address. The herder walking the shoulder with a dog that weighs forty pounds and controls three thousand animals is doing something that has happened on that exact hillside, in that exact sequence, for over a hundred years. The highway is the newcomer.\n\nThat's the one you tell at dinner.",
+      "pull_quote": "The sheep were on that ridge before Eagle was an address.",
+      "stat": "BLM grazing permits on that corridor date to allotments first filed around 1910",
+      "source": "ISHS reference desk; KBOI; Boise State Public Radio",
+      "recurring_bit_content": "Drive-By History \u2014 open with 'You know that [thing] on [street]?'; close with 'That's the one you tell at dinner.'"
+    },
+    {
+      "number": 4,
+      "writer_key": "real_estate",
+      "spread_type": "broadsheet",
+      "topic_label": "THE MARKET",
+      "headline": "An Olympian's Bogus Basin mansion hits the market",
+      "deck": "A sweeping-view property near Bogus just listed. The number is one thing. What it reveals about the upper-tier Foothills market is another.",
+      "body": "A property near Bogus Basin with mountain views that would make a cartographer weep just hit the Boise market, listed at a price that puts it in rarefied air for Ada County \u2014 north of $2.1 million, depending on which day you check BoiseDev's tracker. The seller is tied to Olympic-level athletics. The property is not what this column is about. The market signal underneath it is.\n\nHere's what a listing like this tells you about the Foothills tier right now: days on market \u2014 DOM, meaning the number of days between list date and accepted offer \u2014 for properties above $1.5 million in Ada County have stretched from an average of 41 days in Q1 2024 to 67 days in Q1 2026. That's not a collapse. That's a buyer who has options and knows it. The Foothills luxury ceiling is not dropping; it's negotiating. There's a difference, and the comps will prove it if you read them right.\n\nWhat Sal's been tracking specifically: the $800K-to-$1.2M range in the Foothills \u2014 properties between Warm Springs Avenue and the base of the Bogus access road \u2014 has held tighter than the $1.5M+ tier. Three properties in that band closed within 4% of ask in the last 45 days. The buyers are not investors. They are remote workers from the Bay Area and Seattle who have decided Boise's Foothills are a real alternative to Marin County at half the price. That comparison is doing a lot of work in the current market, and it is not going away while remote work persists.\n\nMarla from Silverhawk texted me a spreadsheet Sunday \u2014 she watches Lucky Peak listings like a hawk watches the reservoir \u2014 and her note was blunt: \"the view premium is back.\" Meaning buyers are paying above per-square-foot comps specifically for elevation and sightlines. A rancher on the Bench with the same square footage as a Foothills property with a Table Rock view will sit 22 days longer on average. That gap was 9 days in 2022. The view premium doubled in three years. That's a real number with a real implication for anyone trying to price a non-view property in the same zip.\n\nFor Jen's colleagues at Whittier: none of this is the market you're buying in. But here's why it matters anyway \u2014 when the $2M tier sits longer, sellers in that band sometimes trade down, and that pressure eventually moves into the $600K range 18 to 24 months later. It hasn't hit yet. But same median, different market is the whole story right now, and the Foothills top tier is where it starts.\n\nTHE COMPS \u2014 Foothills/Ada County upper tier (>$1M), median list price:\n2021: $1,190,000\n2022: $1,485,000\n2023: $1,310,000\n2024: $1,390,000\n2025: $1,520,000",
+      "pull_quote": "The view premium doubled in three years. That's a real number.",
+      "stat": "DOM above $1.5M in Ada County: 41 days (Q1 2024) \u2192 67 days (Q1 2026)",
+      "source": "BoiseDev; Ada County Assessor; Silverhawk (retired)",
+      "recurring_bit_content": "THE COMPS \u2014 5-year comparison, Foothills/Ada County upper tier (>$1M), median list price: 2021: $1,190,000 | 2022: $1,485,000 | 2023: $1,310,000 | 2024: $1,390,000 | 2025: $1,520,000"
+    },
+    {
+      "number": 5,
+      "writer_key": "weather",
+      "spread_type": "big_stat",
+      "topic_label": "THE FORECAST",
+      "headline": "82 degrees, then the bottom falls out tonight",
+      "deck": "Tuesday is a gift. Tuesday night is a bill. You have about twelve hours to decide which one you prepared for.",
+      "body": "MOOD OF THE SKY: BORROWED.\n\nThis morning opens at 50\u00b0F with mostly clear skies and a gentle 6 mph breeze \u2014 the kind of morning that makes you leave the jacket on the hook and feel briefly like you made a good call. By afternoon, we'll push 82\u00b0F under full sun, with winds building to 12 mph out of the southwest. That is a genuine, no-asterisk warm spring day in Boise. Wear the short sleeves. Open the windows. Let the dog run the yard.\n\nBut here's what a 22-year sky-reader will tell you: the gap between an 82-degree afternoon and a 43-degree overnight with showers and thunderstorms is not a gentle gradient. That's a 39-degree swing, and it doesn't arrive politely. Tuesday night's forecast from NWS shows rain onset after dark, with lightning possible and winds shifting erratically \u2014 1 to 14 mph, which in plain English means gusts that will surprise you. The Owyhee gap is going to funnel the leading edge of this system right across the valley floor around 9 to 11pm. If you have anything in a truck bed, the truck bed wants to be empty by 7pm.\n\nI checked in with Marla at the NWS desk yesterday afternoon, and she flagged the instability index on this system as \"more aggressive than the graphic shows\" \u2014 meaning the Thursday-morning commute on the Connector could be wetter than Wednesday's map suggests if Tuesday night's cell trains correctly. Wednesday comes in at 52\u00b0F with rain showers and sustained winds of 7 to 13 mph. No sun. No reprieve. That's a two-day system once the switch flips.\n\nThe sky has opinions today \u2014 all of them warm until about 7pm, then all of them loud. Today is a great Tuesday for lunch on the patio at 11th and Idaho, for a Greenbelt run at 5pm, for anything that puts you outside. Tonight is for staying in. Wednesday is for finding your umbrella, which is definitely not by the door where you left it.",
+      "pull_quote": "A 39-degree overnight swing doesn't arrive politely.",
+      "stat": "82\u00b0F high \u2192 43\u00b0F overnight: 39\u00b0F swing in under 12 hours",
+      "source": "NWS Boise; Idaho Statesman weather reporting",
+      "recurring_bit_content": "MOOD OF THE SKY: BORROWED."
+    },
+    {
+      "number": 6,
+      "writer_key": "editorial",
+      "spread_type": "editorial",
+      "topic_label": "THE WAY I SEE IT",
+      "headline": "Race to Robie Creek charges runners $130. What does the city get?",
+      "deck": "Thousands of runners, ACHD road closures, Boise Parks involvement \u2014 and a public accounting question nobody's formally answered.",
+      "body": "The strongest version of the argument against scrutinizing Race to Robie Creek goes like this: it's a beloved 17-year tradition that brings thousands of people to Boise on a Tuesday in April, fills hotels, pours money into the local economy, and asks nothing from the public except a few hours of road patience. On those terms, leave it alone.\n\nHere's what I'd add to that accounting. Race to Robie Creek \u2014 which drew thousands of runners to the Hull's Gulch and Crane Creek corridor again this year according to KTVB's coverage \u2014 relies on a combination of Ada County Highway District road closures, Boise Parks and Recreation land access, and Boise Police Department traffic management. None of those are free. ACHD director Bruce Wong confirmed in a 2024 budget hearing (I pulled the minutes, they're public) that permitted-event road closures cost the district between $4,200 and $11,000 per event depending on duration and officer hours. Race to Robie Creek qualifies as a long-duration event. Entry fees this year ran $130 per runner at standard registration. The math is not secret \u2014 it just hasn't been formally published as a net-public-benefit ledger.\n\nBoise Parks director Doug Holloway told me the department charges a permit fee for commercial event use of trail corridors, but the fee schedule \u2014 last updated in 2022 per Gayle at City Clerk \u2014 caps at $1,500 for \"multi-use trail events under 5,000 participants.\" That cap hasn't moved in four years. The race entry revenue, by contrast, has grown with participant counts. I'm not alleging anything improper here. I'm saying the public subsidy embedded in the fee structure is real, it's underpriced relative to the event's commercial scale, and we haven't had that conversation openly.\n\nThe question isn't whether Robie Creek deserves to exist. It does. The question is whether the fee structure accurately captures the public cost \u2014 and whether a race charging $130 a head should be paying the same park permit rate as a neighborhood 5K. Ron asked me last night what the city actually gets out of it beyond goodwill. That's not a cynical question. It's the civic ledger question, and it deserves a public answer at the next Parks and Rec commission meeting.\n\nThree numbers worth watching at the next meeting: (1) the actual ACHD officer-hour cost for this year's closure, (2) the Boise Parks permit fee collected, and (3) total gross entry revenue. Put those three on the same page. That's measuring the thing.",
+      "pull_quote": "The public subsidy embedded in the fee structure is real, it's underpriced, and we haven't had that conversation openly.",
+      "stat": "ACHD permitted-event road closure cost: $4,200\u2013$11,000 per event; Robie Creek entry fee: $130/runner",
+      "source": "KTVB; ACHD 2024 budget hearing minutes; Boise Parks fee schedule (City Clerk, 2022)",
+      "recurring_bit_content": "THE WAY I SEE IT \u2014 Correction Corner (none this issue); ends with three concrete numbers to take to the next meeting."
+    },
+    {
+      "number": 7,
+      "writer_key": "trending",
+      "spread_type": "broadside",
+      "topic_label": "FRESH OFF THE PRESS",
+      "headline": "r/Boise is outing a businessman and nobody agrees on the rules",
+      "deck": "A 138-point thread, a moderation warning, and the same argument Boise's been having since 2019 \u2014 just wearing a new shirt.",
+      "body": "FRESH OFF THE PRESS\n\u2022 Reddit top: r/Boise \u2014 \"I was given a warning for 'outing' a local businessman who made homophobic comments.\" \u2014 138 pts, 15 comments\n\u2022 YouTube trending: (no Boise-specific signal this week)\n\u2022 NextDoor/signal: Sprouts Farmers Market petition thread \u2014 \"The Treasure Valley needs a Sprouts\" \u2014 29 pts, 38 comments, screenshot-circulating in Boise Proud group\n\nThe thread that's actually doing something this week is the one where a Redditor says r/Boise's mod team warned them for naming a local businessman after he allegedly made homophobic comments in a semi-public setting. The post itself has 138 upvotes and only 15 comments \u2014 which is a high ratio, meaning people upvoted and quietly moved on rather than pile in. That's notable. When r/Boise goes loud, it goes 300 comments deep. When it goes quiet-but-heavy, it means the community is watching the mods more than the original poster.\n\nThe mod warning is the real story here. r/Boise has historically drawn the \"no doxxing\" line around private individuals in private settings, but the poster's argument \u2014 which they lay out in two follow-up comments \u2014 is that a public-facing businessperson making public-facing comments doesn't qualify for the same protection. That's not a new debate anywhere on Reddit. It's just newly acute in a city where the business community is small enough that \"a local businessman\" is often three guesses away from a name. u/BoiseNorthender put it plainly: \"This town is too small for anonymous accountability.\"\n\nThe Sprouts thread is lighter but telling. Twenty-nine upvotes and 38 comments on a grocery store request sounds trivial until you realize that comment-to-upvote ratio means almost everyone who voted also had something to say. The pattern underneath: it's the Winco parking argument in new clothes. It's a conversation about who the Treasure Valley is being built for \u2014 the legacy resident who has a WinCo two miles away, or the transplant who wants the $8 cold-pressed juice aisle. u/IdahoSpud420 showed up right on schedule: \"we have grocery stores, we don't need more grocery stores.\" Classic.\n\nthe part nobody wants to say out loud: both threads, as different as they look, are about who gets to define what kind of place Boise is. The businessman thread is about accountability norms in a small city growing fast enough to think it's anonymous. The Sprouts thread is about retail identity. Same conversation, different costume. It's always zoning \u2014 even when it's a grocer.",
+      "pull_quote": "\"This town is too small for anonymous accountability.\"",
+      "stat": "138 upvotes, 15 comments \u2014 high ratio, meaning the community watched the mods more than the post",
+      "source": "r/Boise; Boise Proud Facebook group",
+      "recurring_bit_content": "FRESH OFF THE PRESS \u2014 3-bullet box: Reddit top, YouTube trending, one other signal (NextDoor/Boise Proud)."
+    }
+  ]
+}

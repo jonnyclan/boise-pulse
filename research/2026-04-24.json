@@ -1,0 +1,268 @@
+{
+  "_meta": {
+    "generated_at": "2026-04-24T06:26:00-06:00",
+    "date": "2026-04-24",
+    "edition_type": "quick_hits",
+    "source": "gemini_deep_research",
+    "beats_covered": [
+      "sports",
+      "weather",
+      "editorial",
+      "trending",
+      "lifestyle"
+    ],
+    "note": "Civic beat steered to SB 1356/HB 842 per no-AI-angle rule. Statesman strike AI grievance omitted from Dani's assignment."
+  },
+  "assignments": {
+    "sports": {
+      "angle": "BSU Spring Game preview: Maddux Madsen owns QB1 while depth chart battles below him define the Pac-12 era roster",
+      "hook": "Saturday's Spring Game at Albertsons Stadium (2:10 PM kickoff) is the last public window before Boise State enters the Pac-12 — and the most competitive position battles are happening behind Madsen, not at QB1.",
+      "key_facts": [
+        "Spring Game scrimmage begins at 2:10 PM MDT Saturday April 25; warmups at 1:30 PM at Albertsons Stadium",
+        "18 transfers integrated from D1, D2, and junior college ranks to fill voids left by 11 departed starters",
+        "BSU officially joins Pac-12 Conference this summer; legal handover expected July 1, 2026",
+        "Spencer Danielson signed contract extension through 2030 on April 20, 2026",
+        "Game format: Blue vs. Orange units, modified scoring for explosive plays (runs 12+ yards, passes 16+ yards) and defensive stops",
+        "This weekend marks the 40th anniversary of the installation of the blue turf",
+        "Six defensive starters to replace including four secondary members",
+        "Roger Carreon and Ben Ford missing spring due to post-season surgeries; expected for fall camp",
+        "Mikaio Edward (transfer from Central Washington) viewed as litmus test for BSU cross-division scouting",
+        "Zeke Martinez (true freshman, Meridian) generating local buzz as backup QB with high-ceiling potential"
+      ],
+      "named_people": [
+        "Spencer Danielson — Head Coach, Boise State",
+        "Maddux Madsen — QB, redshirt senior",
+        "Max Cutforth — QB, junior (Nampa)",
+        "Zeke Martinez — QB, true freshman (Meridian)",
+        "Tyler Ethridge — OL/Left Tackle, senior transfer from Colorado State-Pueblo",
+        "Jason Steele — OL/Center, redshirt junior",
+        "Zander Esty — OL/Center, redshirt junior",
+        "Dylan Riley — RB, junior",
+        "Jayden Virgin-Morgan — Edge/STUD, redshirt senior",
+        "Rasean Jones — WR, true freshman",
+        "David Latu — NT/DT, redshirt senior",
+        "Mikaio Edward — DT, redshirt junior, transfer from Central Washington",
+        "Boen Phelps — LB/Weakside, redshirt junior",
+        "Syncere Brackett-Lambey — LB/Middle, sophomore",
+        "Jake Ripp — MLB, redshirt senior",
+        "Matt Wagner — TE, redshirt junior",
+        "Darren Morris — WR/X, senior",
+        "Cam Bates — WR/Z, junior",
+        "JeRico Washington Jr. — CB/RCB, redshirt junior",
+        "Sherrod Smith — CB/LCB, junior",
+        "Roman Tillmon — FS, redshirt junior",
+        "Derek Ganter Jr. — SS, redshirt junior",
+        "Roger Carreon — OG/Right Guard, redshirt senior (out this spring)",
+        "Ben Ford — WR, redshirt senior (out this spring)",
+        "Kage Casey — departed OL/Left Tackle",
+        "Mason Randolph — departed OL/Center"
+      ],
+      "key_numbers": [
+        "18 — transfer players integrated this spring",
+        "11 — departed starters replaced",
+        "6 — defensive starters to replace",
+        "4 — secondary starters departing",
+        "2:10 PM MDT — Spring Game kickoff, April 25",
+        "1:30 PM MDT — Spring Game warmups",
+        "40 — years since blue turf installation",
+        "2030 — Danielson contract extension year",
+        "April 20, 2026 — Danielson extension signed",
+        "12+ yards — run threshold for explosive play",
+        "16+ yards — pass threshold for explosive play"
+      ],
+      "direct_quotes": [
+        "Tyler Ethridge has 'immersed himself' in the team's culture and is performing at a high level — Spencer Danielson, April 12 post-scrimmage",
+        "Jayden Virgin-Morgan's daily battles with Matt Wagner are 'some of the most competitive repetitions witnessed on the West Coast this spring' — Spencer Danielson, April 12",
+        "Rasean Jones is a 'football guy' whose future is 'extremely bright' on the blue turf — Spencer Danielson, April 12"
+      ],
+      "community_reaction": "Boise State fans tracking the local-kid backup QB angle: Zeke Martinez (Meridian) vs. Max Cutforth (Nampa). Both are Treasure Valley products. The Pac-12 transition is the meta-story — fans are cautiously excited but aware of the step-up required.",
+      "writer_fuel": "The left tackle drama: Kage Casey was a multi-year anchor and Tyler Ethridge arrived from a D2 program in Colorado. If he holds the job, it validates BSU cross-division scouting. Mikaio Edward (Central Washington to Pac-12) is the same experiment on defense. The blue turf's 40th anniversary lets Kelsey connect BSU's origin story to its biggest leap yet.",
+      "sources_checked": [
+        "Broncosports.com official rosters and press releases",
+        "SI.com BSU beat reporting (Bob Lundeberg)",
+        "247Sports and Ourlads depth chart databases",
+        "KTVB and BoiseDev regional media",
+        "April 12, 2026 post-scrimmage press availability"
+      ],
+      "fact_confidence": "HIGH",
+      "fact_gaps": "Ben Ford fall camp readiness described as 'close' per March 23 — not confirmed. Hei2man t-shirt giveaway not confirmed active. Pac-12 transition exact legal date (July 1 likely but not officially confirmed)."
+    },
+    "weather": {
+      "angle": "Boise just broke its all-time April rainfall record — and a freeze watch is bearing down on Saturday morning gardens",
+      "hook": "April 2026 is officially the wettest April in Boise's recorded history. Today: 47 degrees, biting northwest wind, and a freeze watch that has every backyard gardener nervous about Saturday morning.",
+      "key_facts": [
+        "April 2026 total precipitation: 3.87 inches as of April 22 — new all-time record, surpassing records over a century old",
+        "Record single-day rainfall: 0.87 inches on April 22, 2026",
+        "Friday April 24: high 47F, low 31F, sunny/clear afternoon, NW winds 9-18 mph",
+        "Seasonal average high for late April: 63F — today is nearly 15 degrees below normal",
+        "Morning wind chill felt like 34F",
+        "Saturday April 25: high 60F, low 35F, mostly sunny — best outdoor window of the weekend",
+        "Sunday April 26: high 55F, low 33F, partly cloudy, W winds 8-12 mph",
+        "NWS Freeze Watch: 4:00 AM to 9:00 AM MDT Saturday April 25",
+        "Boise River running high and cold; some Greenbelt sections may see minor ponding",
+        "January 2026: 0.73 inches (129th wettest of 149 years)",
+        "March 2026: 0.79 inches (101st wettest)",
+        "Humidity: 79%"
+      ],
+      "named_people": [],
+      "key_numbers": [
+        "3.87 inches — April 2026 precipitation total (all-time record)",
+        "0.87 inches — single-day record, April 22",
+        "47F — Friday high",
+        "31F — Friday low",
+        "63F — seasonal average high for late April",
+        "15 degrees — below seasonal norm today",
+        "60F — Saturday afternoon high",
+        "35F — Saturday low",
+        "55F — Sunday high",
+        "33F — Sunday low",
+        "4:00 AM to 9:00 AM MDT — Freeze Watch window Saturday April 25",
+        "9-18 mph — Friday NW wind range",
+        "79% — current humidity",
+        "34F — Friday morning wind chill",
+        "149 — years of Boise precipitation records",
+        "0.73 inches — January 2026 total (129th wettest)",
+        "0.79 inches — March 2026 total (101st wettest)"
+      ],
+      "direct_quotes": [],
+      "community_reaction": "Boise gardeners buzzing on NextDoor and Facebook groups about the freeze watch — many planted early after the warm March and are now scrambling to cover tender plants. The wettest April framing is resonating with residents connecting it to the Boise River running high.",
+      "writer_fuel": "January and March were near-desert dry (ranked 129th and 101st of 149 years), then April exploded. The contrast: a cozy Saturday afternoon at 60F, perfect for a Spring Game lawn chair, vs. a hard freeze two hours before sunrise. Pete's practical angle: Saturday is the sweet spot — get out between 10 AM and 4 PM.",
+      "sources_checked": [
+        "NWS Boise Forecast Office (weather.gov), data current as of 6:26 AM April 24",
+        "NWS Freeze Watch alert (updated 12:30 AM April 24)",
+        "AccuWeather and Weather25 historical comparison",
+        "Climatological year-to-date archive summaries"
+      ],
+      "fact_confidence": "HIGH",
+      "fact_gaps": "Freeze Watch may upgrade to Freeze Warning by Friday evening — Pete must check NWS before publishing. Boise River exact flow rate (CFS) not provided — check USGS Boise gauge. Specific Greenbelt ponding sections not named."
+    },
+    "editorial": {
+      "angle": "SB 1356 makes Ada County highway decisions partisan — and HB 842 kneecaps Boise's budget flexibility",
+      "hook": "Two bills from the 2026 legislative session are about to land on Boise's doorstep: one turns road repair into a partisan election, another strips the city's ability to raise property taxes without a ballot vote.",
+      "key_facts": [
+        "SB 1356 mandates partisan elections for Ada County Highway District (ACHD) commissioners — passed both chambers, awaiting Governor Little's signature",
+        "SB 1356 passed both House and Senate in two hours on April 1, 2026",
+        "ACHD is responsible for road maintenance, traffic signals, and infrastructure across Ada County",
+        "HB 842 removes cities' ability to collect forgone property tax revenue without a ballot initiative",
+        "Boise FY 2026 General Fund: $331.6 million (1.2% increase from prior year)",
+        "Boise's 7.6% proposed property tax increase funds police tech modernization and rebate program for vulnerable homeowners",
+        "SB 1448 (library material restrictions) also passed both chambers, awaiting Little's signature",
+        "HB 557 threatens Boise's local antidiscrimination ordinances",
+        "Governor Little's Enduring Idaho plan (announced April 22) frames the restrictions as fiscal responsibility",
+        "Idaho Freedom Foundation calls Boise's budget increase a betrayal of taxpayer trust",
+        "Local advocates and city officials broadly oppose SB 1356 — argue infrastructure should remain nonpartisan",
+        "2026 Idaho Legislative session ended April 14"
+      ],
+      "named_people": [
+        "Brad Little — Governor of Idaho",
+        "Idaho Freedom Foundation — conservative fiscal advocacy organization"
+      ],
+      "key_numbers": [
+        "$331.6 million — Boise FY 2026 General Fund",
+        "1.2% — general fund increase from prior year",
+        "7.6% — proposed Boise property tax increase",
+        "April 1, 2026 — date SB 1356 passed both chambers",
+        "April 14, 2026 — end of 2026 Idaho Legislative session",
+        "April 22, 2026 — Governor Little's Enduring Idaho plan announcement"
+      ],
+      "direct_quotes": [],
+      "community_reaction": "Local officials and Boise city council members broadly oppose SB 1356 — the argument that potholes and traffic signals should not be filtered through party affiliation resonates with residents on both sides. HB 842 is the less visible but more financially consequential bill.",
+      "writer_fuel": "The speed of SB 1356 — two hours on April 1 — either looks efficient or rushed depending on where you stand. ACHD commissioners currently run in nonpartisan races. Dani's The Way I See It voice is built for this: point out the absurdity of partisan road repair while running the actual budget math on what HB 842 costs Boise families.",
+      "sources_checked": [
+        "BoiseDev investigative reporting",
+        "Idaho Legislature Bill Status (legislature.idaho.gov)",
+        "City of Boise FY 2026 Adopted Budget documents",
+        "City of Boise Week 12 Legislative Update",
+        "Idaho Freedom Foundation public statements"
+      ],
+      "fact_confidence": "HIGH",
+      "fact_gaps": "Governor Little had not signed SB 1356 or SB 1448 as of April 24 — confirm signature status before publishing. Pocket veto window may still be active. HB 842 implementation timeline not specified."
+    },
+    "trending": {
+      "angle": "Boise painted its flagpoles rainbow after the state banned Pride flags — the internet called it malicious compliance",
+      "hook": "After a state law banned non-official flags from government buildings, Boise removed its Pride flags and then painted the flagpoles themselves rainbow. The internet had a name for it immediately.",
+      "key_facts": [
+        "Idaho enacted a state-level ban on flying non-official flags including Pride flags on government buildings",
+        "City of Boise removed Pride flags per the law, then painted rainbow colors on flagpoles, crosswalks, and public art installations surrounding City Hall",
+        "The term malicious compliance emerged organically from the community on Reddit and Bluesky — not from city officials",
+        "Story has gained national attention; photographic evidence of rainbow-painted flagpoles circulating widely",
+        "Idaho Family Policy Center (IFPC) and Idaho Freedom Foundation oppose the city's response",
+        "IFPC separately pushing for mandatory Bible reading in classrooms and renaming state infrastructure for conservative figures including Charlie Kirk",
+        "$186 million federal healthcare grant being allocated by House-Senate Rural Health Transformation Committee (first meeting April 22)",
+        "Healthcare funding tension: rural doctor shortage vs. urban medical expansion priorities",
+        "Boise-area daycare sued the state over the Medical Freedom Act (2025), arguing the law prevents sending sick children home or requiring standard immunizations",
+        "SB 1329 (2024) — 988 youth mental health hotline access — being reviewed for tweaks in 2026"
+      ],
+      "named_people": [
+        "Idaho Family Policy Center (IFPC) — conservative advocacy organization",
+        "Idaho Freedom Foundation — conservative fiscal advocacy organization",
+        "Charlie Kirk — mentioned in context of IFPC infrastructure renaming proposals"
+      ],
+      "key_numbers": [
+        "$186 million — federal healthcare grant windfall",
+        "April 22, 2026 — first meeting of Rural Health Transformation Committee"
+      ],
+      "direct_quotes": [],
+      "community_reaction": "r/Boise and Bluesky users calling the flagpole paint job a perfect example of local resistance. Critics from IFPC and Idaho Freedom Foundation argue the city is using public funds to circumvent the spirit of the flag ban. Boise as progressive island in a conservative state narrative is front and center. Daycare lawsuit is the grounded civic anchor for the abstract culture-war framing.",
+      "writer_fuel": "The malicious compliance label came from the community, not the city. Jess's Fresh Off the Press voice thrives on the moment a local policy story becomes a national meme. The flagpole photos are already viral. The daycare lawsuit grounds everything: abstract flag debate, meet the parent dropping off a sick kid while a daycare director tries to figure out what the law lets her do.",
+      "sources_checked": [
+        "Reddit r/Boise and r/Idaho community threads",
+        "Bluesky social media posts from local advocates",
+        "Boise State Public Radio 2026 legislative session AMA",
+        "Idaho Education News (idahoednews.org) — healthcare grants",
+        "IFPC and Idaho Freedom Foundation public statements"
+      ],
+      "fact_confidence": "HIGH",
+      "fact_gaps": "Specific Boise daycare name and lawsuit filing status should be confirmed before publishing. Malicious compliance must be framed as community descriptor, not editorial stance. IFPC Bible reading and renaming bills — confirm current legislative status."
+    },
+    "lifestyle": {
+      "angle": "Student-built doghouses at The Village in Meridian — 21 already gone, 9 left, and a freeze watch for Saturday morning",
+      "hook": "West Ada high schoolers built 30 themed pet houses. Twenty-one sold before the public arrived. Nine are left at $500 each at The Village in Meridian this weekend — or try the raffle.",
+      "key_facts": [
+        "5th Annual Parade of Homes Pet Edition runs April 24-26, The Village at Meridian, Fountain Square, 3597 E Monarch Sky Ln, Meridian, ID 83646",
+        "30 doghouses designed and built by West Ada School District CTE Residential Construction Level 1 students",
+        "21 of 30 doghouses sold before public event opened — 9 remaining at $500 each fixed price",
+        "Raffle available as lower-cost alternative (ticket price unconfirmed — check BCASWI; typically $5-$20)",
+        "Only select doghouses physically on display at The Village; full collection viewable via digital catalog",
+        "Hours: approximately 10 AM to 9 PM daily through Sunday",
+        "Event organizer: Jenna Englund, BCASWI (208-995-2885)",
+        "Proceeds benefit BCASWI Trade Education and Training Scholarship Fund",
+        "Mia Englund Memorial Scholarship: $2,911 award for students pursuing construction careers",
+        "Zoo Boise Safari Stuffies: Friday April 24, 5:30-7:30 PM, $80 per child, ages 4+, registered adult required",
+        "World Penguin Day: Saturday April 25, 10 AM-2 PM, included with regular zoo admission — Magellanic penguin crafts and biofact stations",
+        "Boise Off-Road Expo: April 24-25, Expo Idaho, $12 adults (kids free)",
+        "Outdoor event at Fountain Square — Saturday morning freeze watch (4-9 AM); afternoon rebounds to 60F"
+      ],
+      "named_people": [
+        "Jenna Englund — Event Contact, BCASWI representative (208-995-2885)",
+        "Mia Englund — namesake of the Memorial Scholarship"
+      ],
+      "key_numbers": [
+        "30 — total doghouses built",
+        "21 — sold before public opening",
+        "9 — remaining for purchase",
+        "$500 — fixed purchase price per doghouse",
+        "$2,911 — Mia Englund Memorial Scholarship amount",
+        "$80 — Zoo Boise Safari Stuffies price per child",
+        "5:30-7:30 PM — Safari Stuffies window Friday April 24",
+        "10 AM-2 PM — World Penguin Day window Saturday April 25",
+        "10 AM-9 PM — Pet Parade viewing hours (approx)",
+        "$12 — Off-Road Expo adult admission (kids free)",
+        "4 — minimum age Zoo Boise Safari Stuffies",
+        "3597 E Monarch Sky Ln, Meridian, ID 83646 — The Village address"
+      ],
+      "direct_quotes": [],
+      "community_reaction": "The CTE angle resonates strongly in the Treasure Valley where construction career pathways are a known community priority. The sold-out-before-you-arrived frustration is real and worth naming directly — the raffle is the workaround most families will not know about unless Hayley tells them.",
+      "writer_fuel": "The scarcity is the story — 21 of 30 gone before doors opened. That is not a failure; it is proof the program has momentum. The Mia Englund Memorial Scholarship adds genuine emotional weight if Hayley can surface who Mia was. Saturday morning freeze watch means early Fountain Square visitors should pack layers, but by 10 AM it is perfectly pleasant. Hayley's honest-downside voice is made for this: We showed up. Half were sold. The raffle tickets were worth it anyway.",
+      "sources_checked": [
+        "Building Contractors Association of Southwestern Idaho (BCASWI) event calendar and scholarship details",
+        "The Village at Meridian official event listings",
+        "Zoo Boise education and event schedule",
+        "Mike Brown Group local event guides"
+      ],
+      "fact_confidence": "HIGH",
+      "fact_gaps": "Raffle ticket price not confirmed — call Jenna Englund (208-995-2885) or check BCASWI website. Mia Englund backstory not fully researched. Confirm which doghouses are physically at The Village vs. digital catalog only. Saturday morning freeze watch may affect early outdoor viewing."
+    }
+  },
+  "gemini_news": {}
+}

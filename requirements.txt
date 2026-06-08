@@ -1,0 +1,3 @@
+# Core pipeline has zero third-party deps — stdlib only.
+# These are optional, only needed when USE_REAL_AI=1:
+anthropic>=0.40.0

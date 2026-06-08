@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "fetched_at": "2026-06-07T03:28:56.920239+00:00",
+    "empty_sources": [
+      "reddit",
+      "youtube"
+    ]
+  },
+  "issue": {
+    "slug": "deep_dive",
+    "masthead_label": "THE DEEP DIVE  \u00b7  TUESDAY",
+    "story_count": 6,
+    "writer_pool": [
+      "sports",
+      "history",
+      "editorial",
+      "real_estate"
+    ],
+    "spread_plan": [
+      "todays_edition",
+      "hero",
+      "academic",
+      "broadsheet",
+      "big_stat",
+      "editorial",
+      "broadside"
+    ],
+    "tone_hint": "Tuesday is meatier. Every story earns its spread through substance, not novelty. Bodies run 4\u20135 paragraphs, 100\u2013140 words each. Reward the reader who sits with the magazine for 10 minutes. If a story can't sustain a deep read, it belongs on Friday, not today.",
+    "weather_mandatory": false,
+    "override_rule": "Writers outside the pool (weather, food, arts, trending, lifestyle) may claim ONE Tuesday slot IF their beat has genuinely big news \u2014 a major artist announcement, a restaurant closure of civic significance, a weather emergency, a viral Boise story that's crossed into national coverage. The bar is: 'this story would lead a national story about Boise.' If in doubt, stick to the pool. Lifestyle/TikTok trends almost never earn Tuesday \u2014 Tuesday is substance day."
+  },
+  "stories": [
+    {
+      "writer_key": "editor_in_chief",
+      "spread_type": "todays_edition",
+      "topic_label": "TODAY'S EDITION",
+      "context_line": "SATURDAY \u00b7 JUNE 06, 2026 \u00b7 DEEP DIVE",
+      "headline": "",
+      "deck": "",
+      "body": "A saturday edition that started with a question none of our writers set out to answer: what do we actually measure when we try to measure Boise? Every piece in the stack ended up there anyway. The writers don't coordinate. They notice the same thing a different way.\n\n**Read Dani first.** It's the piece that sets the frame \u2014 the anchor every other story is quietly playing off of, and Wade's piece is where the second story is hiding.\n\nThe line to carry into the saturday: *the order is the argument.*",
+      "pull_quote": "The order is the argument.",
+      "stat": "",
+      "source": "The Boise Pulse \u00b7 Editorial",
+      "recurring_bit_content": "\u2014 M.H., Editor",
+      "number": 1
+    },
+    {
+      "writer_key": "editorial",
+      "spread_type": "hero",
+      "topic_label": "THE WAY I SEE IT",
+      "headline": "We keep measuring the wrong thing",
+      "deck": "Dani Breck on the number that doesn't mean what you think it means.",
+      "body": "The case for celebrating growth is real — more rooftops mean more tax base, and a stalled city is its own kind of failure. When [Mayor McLean's office] led with the population number at the [June __ Council meeting], that wasn't spin; it was the easiest true thing to say. Here's why it still misleads.\n\nPopulation growth is an input, not a verdict. The verdict is whether the people who were already here can still afford to be. COMPASS (the Community Planning Association of Southwest Idaho) migration data and the [ordinance #___] housing filing point the same way: we're adding people faster than we're keeping the ones under the median. Gayle at the Clerk's office pulled the [year] version of this same debate — we've celebrated this number before.\n\nThree numbers to watch instead: the share of renters paying more than 30% of income on housing (the Census tracks this). The median household-income-to-home-price ratio. The net domestic migration for residents earning under $50k. Those three tell you whether growth is building a city or replacing one.\n\nMeasure the thing, not the shorthand.",
+      "pull_quote": "Population growth is an input, not a verdict.",
+      "stat": "30%",
+      "source": "U.S. Census · COMPASS · Boise City Clerk",
+      "recurring_bit_content": "THE WAY I SEE IT \u2014 measure the thing, not the shorthand.",
+      "number": 2
+    },
+    {
+      "writer_key": "history",
+      "spread_type": "academic",
+      "topic_label": "DRIVE-BY HISTORY",
+      "context_line": "One story. One landmark. One thing you tell at dinner.",
+      "headline": "You know that brick building on Grove Street?",
+      "deck": "Wade Ostermann on the Cyrus Jacobs-Uberuaga House \u2014 what it is, why it matters, and the part Helmut made me correct before I printed it.",
+      "body": "You know that brick building on Grove Street, across from the parking structure? The one with the bright yellow door?\n\nThat's the Cyrus Jacobs-Uberuaga House. Oldest brick building still standing in Boise \u2014 1864, give or take. Cyrus Jacobs built it as a family home. But that's not the interesting part. The interesting part is what happened starting about 1910, when the Uberuaga family ran it as a boarding house for Basque sheepherders coming in off the range. Basque \u2014 those are the folks from the mountains between Spain and France. Most of them didn't speak English when they showed up in Idaho. They'd come through the door on Grove Street, get a bed, get a plate, get a map of the sheep camps, and head out.\n\nHelmut across the street \u2014 84, retired Simplot, lived in Hyde Park since 1968 \u2014 corrected me on this. I had it as 1915. He said 1910. I checked with Arlene at the Historical Society. Arlene said Helmut was right, the first Uberuaga boarders were in by 1910.\n\nHere's the thing most people don't know. When the place opened as a museum in the '90s, they kept the original boarding-house kitchen. Same pots. Same wood stove. It's like walking into a 1912 Tuesday afternoon \u2014 there's a pot on the stove that looks like somebody stepped out for a smoke.\n\n**The kicker:** the building's address today is 607 Grove Street. Drive by it. It's still there. The yellow door is the original Basque color \u2014 it's how the sheepherders who couldn't read the sign knew they'd found the right house.\n\nThat's the one you tell at dinner.",
+      "pull_quote": "The yellow door is the original Basque color.",
+      "stat": "1864",
+      "stat_label": "Built. Oldest brick building in Boise still standing.",
+      "source": "North End mail route \u00b7 Helmut across the street \u00b7 ISHS reference desk",
+      "recurring_bit_content": "DRIVE-BY \u2014 607 Grove Street. Yellow door. The yellow is the part nobody tells you.",
+      "number": 3
+    },
+    {
+      "writer_key": "sports",
+      "spread_type": "broadsheet",
+      "topic_label": "THE BENCH",
+      "context_line": "BSU Football \u00b7 Spring Camp \u00b7 June 6",
+      "headline": "The walk-on at nickel is the story the wire missed",
+      "deck": "Spring camp, Day 12. From The Blue's sideline, what ESPN's roundup won't tell you about a roster the staff is rebuilding from the bottom up.",
+      "body": "**The Lede:** I watched Cole Aguiar take seven nickel reps before the sprinklers shut off. The wire will tell you about seven other guys.\n\nI got to The Blue at 6:40 this morning, two coffees in, Subaru parked at the east lot where the gate guy pretends he doesn't recognize me. Aguiar was already in pads. By the time the sun cleared Table Rock he had rotated through three different looks at the nickel, and the staff was pencil-noting something on the laminated two-deep the beat guys aren't allowed to photograph. ESPN's spring-camp roundup will lead with the quarterback battle (it always leads with the quarterback battle) and the usual portal names \u2014 fine, that's what drives clicks in 400 markets. This column lives in the other 400.\n\nAguiar is a junior, walk-on, Eagle High, never recruited. Last spring he got thirty-seven snaps of practice tape that none of the national sites bothered to pull. This spring the staff has him running with the ones in long-yardage \u2014 that's the play Broncos Nation has been nervous about since the Famous Idaho Potato Bowl. Ran it by Tam at the Ram on Broad Street, because she watches more BSU film than most beat writers. \"He's the one who runs to the ball,\" she said, without looking up from the spread on the chalkboard. Numbers don't argue.\n\nI was a walk-on point guard at BSU before my ACL got me. Eleven minutes in a MW quarterfinal \u2014 the only eleven that ever mattered \u2014 and I think about those minutes every time I watch a practice-squad kid get a rep that counts. Aguiar's combine numbers are ordinary. His film is not. Roster health in the MW gets measured from the bottom up; that's been true since before my knee did. The name to write down is Aguiar. Somebody will beat me to it by the spring game. Good.",
+      "pull_quote": "He's the one who runs to the ball.",
+      "stat": "37",
+      "stat_label": "Practice snaps on tape last spring. The national sites pulled zero.",
+      "source": "Boise State University Athletics",
+      "recurring_bit_content": "THE LEDE \u2014 I watched Cole Aguiar take seven nickel reps before the sprinklers shut off. The wire will tell you about seven other guys.",
+      "number": 4
+    },
+    {
+      "writer_key": "real_estate",
+      "spread_type": "big_stat",
+      "topic_label": "THE MARKET",
+      "headline": "Median price held. The story is what's behind it.",
+      "deck": "Sal Merritt on a number that's stopped telling you what you want to know.",
+      "body": "The headline median is $519,000 \u2014 down a hair from March, up 2.1% year-over-year. That's the number the papers will quote. It's also a number that's mathematically interesting and economically inert: a median moves when the MIX changes, not when prices change.\n\nInventory in the North End dropped 11%. Inventory in Meridian rose 7%. You mix those two buckets together and the median barely budges, because the North End pulls the top end up while Meridian drags it down. Same median, different market.\n\n**THE COMPS:** 2019: $305k \u00b7 2022: $549k \u00b7 2023: $489k \u00b7 2024: $505k \u00b7 2025: $519k. The five-year chart looks like a hill with a plateau on top. That's not a cool market. That's a market that's finished correcting and is waiting for rates.\n\nWatch days-on-market next. If DOM climbs through 45 we're in a different conversation.",
+      "pull_quote": "Same median, different market.",
+      "stat": "$519K",
+      "stat_label": "Treasure Valley median, single-family. Down 0.2% M/M, up 2.1% Y/Y.",
+      "source": "Fathom Journal",
+      "recurring_bit_content": "THE COMPS \u00b7 2019 \u2192 2025 \u2014 the chart is the argument.",
+      "number": 5
+    },
+    {
+      "writer_key": "arts",
+      "spread_type": "editorial",
+      "topic_label": "THE SCENE",
+      "headline": "Three shows, one basement, one surprise",
+      "deck": "Dex Dexter on the week Boise remembered it has a music scene.",
+      "body": "> *\"If you ain't payin' rent on a stage you ain't sayin' nothin'.\"*\n\nDex's Drop: Shrine Social Club Friday, Neurolux Saturday, a basement in the East End Sunday that I'm not going to name because the point of a basement show is that you had to know a guy.\n\nThe surprise: the touring openers are better than the headliners at two of the three. That's a telling week for the scene \u2014 national acts are working Boise harder than they were three years ago, and the locals on the opener slot are getting the ten minutes that matter.",
+      "pull_quote": "The point of a basement show is that you had to know a guy.",
+      "stat": "3",
+      "source": "Boise State University",
+      "recurring_bit_content": "Dex's Drop \u2014 what the jukebox heard this week.",
+      "number": 6
+    },
+    {
+      "writer_key": "weather",
+      "spread_type": "broadside",
+      "topic_label": "THE FORECAST",
+      "headline": "Bright over the Boise Bench",
+      "deck": "Pete's read on today \u2014 mostly clear.",
+      "body": "**MOOD OF THE SKY:** BRIGHT.\n\nWe are sitting on a 47\u00b0F day with mostly clear and wind 9 to 13 mph. The inversion line is where it always is this month \u2014 look up from Capitol Boulevard and you can see it, a gray fingernail sitting on top of a warmer city.\n\nIf you're walking the dog: a real jacket. If you're just going to the car: cotton's fine, but bring something for the afternoon drop. The dog, for the record, does not read weather columns; she just wants to go.",
+      "pull_quote": "A 47\u00b0F day with opinions.",
+      "stat": "47\u00b0F",
+      "source": "NWS Boise",
+      "recurring_bit_content": "MOOD OF THE SKY: BRIGHT",
+      "number": 7
+    }
+  ]
+}

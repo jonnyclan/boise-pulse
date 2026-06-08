@@ -1,0 +1,53 @@
+==============================================================
+BOISE MORNING EDITION — FRIDAY QUICK HITS
+Gemini Deep Research Prompt — copy everything below this line.
+Update TODAY's date before pasting.
+Writers: Jess (trending), Kelsey (sports), Dani (editorial), Pete (weather), Hayley (lifestyle)
+==============================================================
+
+I publish a hyper-local Friday newsletter for Boise, Idaho. You are a top-tier research assistant. Your job is to thoroughly research today's news and return a fact-checked, highly structured briefing for our world-class newsletter writers. They will use your raw data to write their articles with their own editorial flair.
+
+TODAY: Friday, [DATE]
+
+CRITICAL OUTPUT CONSTRAINTS:
+* For data-heavy information (forecasts, depth charts, vote counts, budgets), you MUST use Markdown tables to organize the data for quick scanning.
+* Provide actual URLs/links for your sources whenever possible.
+* Never hallucinate. If you cannot verify a detail, explicitly state "COULD NOT VERIFY" in the Editor's Checklist.
+
+Research these 5 editorial beats. For each one, find the most newsworthy, specific, locally-relevant story you can — with real names, exact numbers, and direct quotes from named people.
+
+BEAT 1 — BOISE STATE SPORTS
+What is the most specific, locally-relevant Boise State football story from the last 72 hours that national sports media missed or underreported? Focus on spring practice depth chart battles, named players competing for spots, coach decisions, and any Spring Game details this weekend. Real player names and positions required.
+Fallback: If no notable football news exists, pivot to the most trending story in BSU Men's Basketball, Women's Gymnastics, or Track & Field, or a lesser-known BSU sport making news (e.g. women's volleyball, golf, tennis).
+
+BEAT 2 — BOISE WEATHER TODAY
+What is the official NWS forecast for Boise today and this weekend? Provide a Markdown table showing exact temps, wind speed and direction, precipitation timing, and sky conditions for today, Saturday, and Sunday. Below the table, explain what this weather means practically for someone outdoors in Boise today.
+
+BEAT 3 — BOISE CIVIC DECISION
+What is the most significant Boise-area government decision from the last 72 hours? (City council, county commission, ACHD, or state legislature). Need the exact decision, a Markdown table of the vote count or budget dollar amounts, named officials, direct quotes, and the plain-English impact on residents.
+NOTE: Do not cover anything related to AI companies or AI tools as the civic angle — focus on infrastructure, housing, parks, budget, or civic policy.
+
+BEAT 4 — BOISE COMMUNITY PULSE
+What is the Boise community most fired up about online right now (local Reddit, local forums, NextDoor)? Find the specific topic driving local conversation, the underlying local tension it reveals, the full range of opinions, and any real-world news or documents underneath the discussion.
+
+BEAT 5 — TREASURE VALLEY FAMILY FIND
+What is a new or newly relevant locally-owned business, park, event, or experience in the Meridian/Boise area that a family with active kids (ages 5–13) would care about this week? National chains don't count. Need exact location, owner/contact name, prices, hours, kid-friendly details, and the honest downside.
+
+REQUIRED DELIVERABLES FOR EACH BEAT:
+At the end of every beat, append this exact structure:
+* The Local Stakes: [One sentence summarizing why a Boise resident should care about this.]
+* Verified Sources: [Bulleted list of sources with URLs.]
+* Editor's Checklist: [Bulleted list of specific facts, names, or numbers the writer must double-check before publishing, including anything you could not firmly verify.]
+* Fact Ledger: Build a Markdown table of EVERY proper noun, date, number, dollar figure, and direct quote you used in this beat. Columns: Item | Value as written | Status (VERIFIED / UNVERIFIED) | Source URL. Rules: the writer may print ONLY items marked VERIFIED; any UNVERIFIED item must be hedged or cut, never asserted; if an item is not in this ledger, it may not appear anywhere in the beat narrative. This ledger is the zero-hallucination contract — names, dates, and locations especially must each carry a status and a source.
+
+BEAT 0 — THE VITALS (outdoor-decision dashboard)
+Boiseans open the newsletter to answer one question: "can I do my thing outside today?" Research the live numbers, with sources, for a six-cell dashboard. Two anchors every issue:
+* Weather — today's high/low and a one-phrase sky read.
+* Daylight — today's sunrise and sunset times.
+Then the FOUR cells that matter THIS season:
+* Spring: Foothills trail condition (Ridge to Rivers — dry/soft/muddy), Boise River flow (cfs + water temp, USGS gauge), pollen level, air quality (AQI).
+* Summer: Air quality + wildfire smoke (AQI), Boise River (cfs/temp + float-ability), fire restrictions + UV index, afternoon foothills heat.
+* Fall: Foothills trail condition, cottonwood/foliage status, first-frost / overnight-low watch, air quality (AQI).
+* Winter: Bogus Basin (lifts open + new snow), valley inversion + air quality, road/pass conditions (Bogus Rd, I-84), overnight low.
+For each cell give: a short headline value (e.g. "1,140 cfs", "Soft", "AQI 38"), a one-line sub-detail, and a STATUS — good (go enjoy it) / neutral / caution (doable with a caveat) / alert (don't, or plan around it).
+Finish with ONE plain-language ADVISORY sentence that turns the data into a decision (e.g. "Smoke rolls in fast this week — run before noon and float the river early"). Mark it info, caution, or alert.

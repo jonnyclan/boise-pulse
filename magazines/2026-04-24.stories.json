@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "fetched_at": "2026-04-24T20:28:19.014627+00:00",
+    "empty_sources": [
+      "youtube"
+    ]
+  },
+  "issue": {
+    "slug": "quick_hits",
+    "masthead_label": "QUICK HITS  \u00b7  FRIDAY",
+    "story_count": 5,
+    "writer_pool": [
+      "trending",
+      "sports",
+      "editorial",
+      "weather",
+      "lifestyle"
+    ],
+    "spread_plan": [
+      "todays_edition",
+      "hero",
+      "rose_stamp",
+      "retro_weather",
+      "midnight",
+      "broadside"
+    ],
+    "tone_hint": "Friday is short, fast, and aimed at the commute. Bodies run 2\u20133 paragraphs, 60\u201390 words each. No windups. Lead with the news the reader will actually talk about this weekend. Sports = game previews not game recaps. Weather = Thursday's forecast updated. The kicker (broadside) sends the reader into the weekend with something quotable.",
+    "weather_mandatory": true,
+    "override_rule": "Writers outside the pool (history, food, arts, real_estate) may claim ONE Friday slot IF their beat has breaking news. Friday is reactive: if a story broke Thursday after our Thursday send, Friday is its home."
+  },
+  "stories": [
+    {
+      "number": 1,
+      "writer_key": "editor_in_chief",
+      "spread_type": "todays_edition",
+      "topic_label": "TODAY'S EDITION",
+      "headline": "Friday lands hard and fast this week",
+      "deck": "Records broken, a Pac-12 preview, and a freeze watch \u2014 all before Saturday morning.",
+      "body": "This Friday arrived with a record already on the books. Boise just logged its wettest April in over a century, a freeze watch is set for Saturday before sunrise, and the city is simultaneously painting flagpoles rainbow and arguing about who gets to fix potholes. That is a lot of civic weather for one commute.\n\nRead Pete first. The freeze watch is real, it has a clock on it \u2014 4 AM to 9 AM Saturday \u2014 and if you planted anything in March you need that information right now. Then read Dani, because the two bills sitting on Governor Little's desk will change how Boise runs its roads and its budget in ways most people haven't caught up to yet.\n\nThe Boise of this weekend is both record-breaking and bracing for a hard morning.",
+      "pull_quote": "A record-breaking April, a freeze watch, and a city painting its own flagpoles \u2014 Boise is having a week.",
+      "stat": null,
+      "source": "The Boise Morning Edition",
+      "recurring_bit_content": "\u2014 M.H., Editor"
+    },
+    {
+      "number": 2,
+      "writer_key": "sports",
+      "spread_type": "hero",
+      "topic_label": "THE BENCH",
+      "headline": "The last open rehearsal before Pac-12 opens for real",
+      "deck": "Saturday's Spring Game is BSU's final public audition \u2014 and the real competition isn't at quarterback.",
+      "body": "The Lede: Maddux Madsen owns QB1. The Spring Game tomorrow is about everything below him.\n\nWarmups at Albertsons Stadium begin at 1:30 PM Saturday. Kickoff at 2:10 PM MDT. Blue versus Orange, modified scoring for explosive plays \u2014 runs of 12-plus yards, passes of 16-plus \u2014 and a defense that has six starters to replace, four of them in the secondary. That is the honest shape of this roster heading into the Pac-12 era, which officially begins July 1. Spencer Danielson signed his extension through 2030 on April 20, so at least the anchor holds.\n\nThe storyline that matters most is the offensive line. Kage Casey anchored that left tackle spot for years. Tyler Ethridge arrived from Colorado State-Pueblo \u2014 a D2 program \u2014 and Danielson said publicly that Ethridge has \"immersed himself\" in the team's culture and is performing at a high level. If Ethridge holds the job through fall camp, it validates how BSU scouts outside the Power conference pipeline. The same experiment runs on defense: Mikaio Edward transferred from Central Washington and is the litmus test for whether cross-division recruiting holds up when the opposition gets bigger.\n\nOf the 18 transfers integrated this spring, many exist to patch the 11 departed starters. Jason Steele and Zander Esty are competing at center now that Mason Randolph is gone. Dylan Riley will get looks in the backfield. Jayden Virgin-Morgan's daily edge battles with Matt Wagner were called \"some of the most competitive repetitions witnessed on the West Coast this spring\" by Danielson \u2014 which, if you're keeping score, means the defense might have its identity before the offense settles its interior. And Rasean Jones, the true freshman receiver Danielson called a \"football guy\" with a \"bright\" future on The Blue, is one to track when the ball moves fast.\n\nThe Treasure Valley subplot: Zeke Martinez, true freshman out of Meridian, generating real buzz as the backup with a high ceiling. Max Cutforth, Nampa product, is his competition. Two local kids competing for the same job, on the blue turf that turns 40 years old this weekend. That is the kind of number that makes a Spring Game feel like more than a scrimmage.",
+      "pull_quote": "Six defensive starters to replace, four of them in the secondary \u2014 the Pac-12 era starts with real questions.",
+      "stat": "18 transfers",
+      "source": "Broncosports.com, SI.com BSU beat, April 12 post-scrimmage press availability",
+      "recurring_bit_content": "THE LEDE \u2014 Maddux Madsen owns QB1. The Spring Game tomorrow is about everything below him."
+    },
+    {
+      "number": 3,
+      "writer_key": "trending",
+      "spread_type": "rose_stamp",
+      "topic_label": "FRESH OFF THE PRESS",
+      "headline": "Boise painted the poles and the internet named it",
+      "deck": "The city followed the letter of the flag ban \u2014 then picked up a brush.",
+      "body": "The story that broke out of Boise this week and landed on national timelines started with a law and ended with a paint can. Idaho enacted a ban on non-official flags at government buildings. Boise complied \u2014 removed the Pride flags, then painted the flagpoles themselves in rainbow colors, along with crosswalks and public art installations around City Hall. The community named what happened before any city official did: malicious compliance. That term emerged organically on Reddit and Bluesky, not from a press release. The photos circulated fast.\n\nThe Idaho Family Policy Center and the Idaho Freedom Foundation both pushed back, arguing the city used public funds to dodge the spirit of the law. That argument is real and it will continue. But the image \u2014 a flagpole, stripped of its flag, painted instead \u2014 is already doing its own rhetorical work regardless of where you stand on the underlying law.\n\nThe civic anchor that grounds all of this is quieter but worth watching: a Boise-area daycare sued the state over the Medical Freedom Act, arguing the law prevents standard public-health practices like sending sick children home. Abstract culture-war legislation, meet the parent at morning drop-off. That lawsuit is the flag debate in a room with actual children in it.",
+      "pull_quote": "The community named it before the city did \u2014 and the photo already said everything.",
+      "stat": null,
+      "source": "r/Boise, Bluesky, Boise State Public Radio 2026 legislative session AMA, IFPC public statements",
+      "recurring_bit_content": "FRESH OFF THE PRESS\n\u2022 Boise painted its flagpoles rainbow after pulling Pride flags per state law \u2014 and the internet immediately had a name for it.\n\u2022 The Idaho Family Policy Center is also pushing for mandatory Bible reading in classrooms and renaming state infrastructure for conservative figures including Charlie Kirk.\n\u2022 A Boise-area daycare is suing the state over the Medical Freedom Act, arguing it prevents basic public-health practices like requiring standard immunizations."
+    },
+    {
+      "number": 4,
+      "writer_key": "weather",
+      "spread_type": "retro_weather",
+      "topic_label": "THE FORECAST",
+      "headline": "Record April, freeze watch, and one sweet Saturday window",
+      "deck": "Cover your plants tonight. Saturday afternoon is all yours.",
+      "body": "MOOD OF THE SKY: RELENTLESS.\n\nBoise just made history and not the warm kind. April 2026 has logged 3.87 inches of precipitation \u2014 a new all-time record, surpassing marks that stood for over a century. April 22 alone dropped 0.87 inches in a single day. January came in at 0.73 inches, March at 0.79 \u2014 near-desert dry, both of them. Then April showed up with a suitcase and refused to leave. The Boise River is running high and cold, and some Greenbelt sections are seeing minor ponding.\n\nToday: high of 47\u00b0F, which is nearly 15 degrees below the seasonal average of 63\u00b0F. Northwest winds 9 to 18 mph, humidity sitting at 79%, and that wind chill this morning felt like 34\u00b0F. This afternoon clears out and the sun shows up \u2014 but the thermometer doesn't follow. Dottie didn't want to come back inside this morning, which usually means the pressure is still unstable. She was right.\n\nHere is the thing about Saturday: the NWS Freeze Watch runs 4:00 AM to 9:00 AM MDT. If you put anything tender in the ground during that warm stretch, cover it tonight before you go to bed \u2014 not Saturday morning, because by then it's already happening. Once that watch lifts, Saturday becomes the best outdoor window of the weekend. High of 60\u00b0F, mostly sunny, winds light out of the south-southwest. The Spring Game kicks off at 2:10 PM and the lawn chair crowd will be fine. Sunday runs 55\u00b0F with patchy frost before 7 AM again, but the afternoon is clean. Get outside Saturday between 10 AM and 4 PM. The sky is giving you exactly one gift this weekend \u2014 take it.",
+      "pull_quote": "Cover your plants before midnight. By noon Saturday, you'll forget it ever froze.",
+      "stat": "47\u00b0 / 31\u00b0",
+      "source": "NWS Boise Forecast Office, data current as of 6:26 AM April 24",
+      "recurring_bit_content": "MOOD OF THE SKY: RELENTLESS."
+    },
+    {
+      "number": 5,
+      "writer_key": "editorial",
+      "spread_type": "midnight",
+      "topic_label": "THE WAY I SEE IT",
+      "headline": "Partisan potholes and a budget you didn't vote on",
+      "deck": "Two bills, one waiting for a signature \u2014 and Boise's roads and finances hang in the balance.",
+      "body": "SB 1356 passed both the Idaho House and Senate in two hours on April 1, 2026. Two hours. The Ada County Highway District \u2014 ACHD \u2014 is responsible for road maintenance, traffic signals, and infrastructure across Ada County. Its commissioners currently run in nonpartisan races. Under SB 1356, which has passed both chambers and is awaiting Governor Little's signature, those races become partisan elections. The strongest version of the case for this bill is that all government should be accountable to a party platform. The honest counter is that a pothole does not have a party affiliation, and the people fixing it probably shouldn't need one either. Local officials and city council members have broadly said so.\n\nHB 842 is the bill fewer people are talking about and the one with the larger financial footprint. It removes cities' ability to collect forgone property tax revenue without going to a ballot initiative. Boise's FY 2026 General Fund sits at $331.6 million \u2014 a 1.2% increase from the prior year. The city's proposed 7.6% property tax increase funds police technology modernization and a rebate program for vulnerable homeowners. The Idaho Freedom Foundation has called that increase a betrayal of taxpayer trust. Governor Little's Enduring Idaho plan, announced April 22, frames these restrictions as fiscal responsibility. The legislature adjourned April 14.\n\nThree numbers worth watching before this is settled: the final property tax rate Boise can actually collect after HB 842 takes effect, the cost of ACHD commissioner races once party infrastructure gets involved, and how many nonpartisan infrastructure boards are left in Ada County after the 2026 cycle. Measure the thing \u2014 not the press release about the thing.",
+      "pull_quote": "A pothole does not have a party affiliation, and the people fixing it probably shouldn't need one.",
+      "stat": "$331.6M",
+      "source": "BoiseDev, Idaho Legislature Bill Status, City of Boise FY 2026 Adopted Budget, City of Boise Week 12 Legislative Update, Idaho Freedom Foundation public statements",
+      "recurring_bit_content": "MEASURE THE THING."
+    },
+    {
+      "number": 6,
+      "writer_key": "lifestyle",
+      "spread_type": "broadside",
+      "topic_label": "SATURDAY TRIED IT",
+      "headline": "Twenty-one gone. Nine left. Bring a raffle ticket.",
+      "deck": "West Ada students built 30 doghouses, and the public didn't even get a shot at most of them.",
+      "body": "The scarcity is the story. Thirty doghouses \u2014 designed and built by West Ada School District CTE Residential Construction Level 1 students \u2014 went on display at The Village at Meridian, 3597 E Monarch Sky Ln. Twenty-one of them sold before the public event opened. Nine remain at $500 each. CALLING IT: if you show up this weekend expecting to browse thirty options, reset your expectations now. The raffle is the move most families won't know about unless someone tells them. Consider yourself told. Contact Jenna Englund at BCASWI (208-995-2885) for details. Hours run approximately 10 AM to 9 PM through Sunday.\n\nProceeds benefit the BCASWI Trade Education and Training Scholarship Fund, including the Mia Englund Memorial Scholarship \u2014 a $2,911 award for students pursuing construction careers. The CTE pipeline matters in the Treasure Valley right now, and the sold-before-you-arrived reality is the proof of concept. Kyle would ask how much it cost. The answer is $500, which is also the answer to what it costs to give a high schooler's first major build a home.\n\nSaturday morning freeze watch lifts by 9 AM. Bundle up if you're hitting Fountain Square early. After that: World Penguin Day at Zoo Boise runs 10 AM to 2 PM with regular admission \u2014 Magellanic penguin crafts and biofact stations are included. Zoo Boise Safari Stuffies tonight (Friday) goes 5:30 to 7:30 PM at $80 per child, ages 4 and up, registered adult required. Boise Off-Road Expo runs today and Saturday at Expo Idaho, $12 adults, kids free. The weekend has options. Dress in layers until noon.",
+      "pull_quote": "Twenty-one sold before the doors opened. That's not a problem \u2014 that's a program with momentum.",
+      "stat": "9 left",
+      "source": "BCASWI event calendar, The Village at Meridian event listings, Zoo Boise education schedule",
+      "recurring_bit_content": "VERDICT: CALLING IT\nHAYLEY'S RATIO: $500 / 20 minutes to park and find the display / 2/2 kids will immediately want the one shaped like a castle. Raffle ticket is the better play. Show up anyway."
+    }
+  ]
+}
