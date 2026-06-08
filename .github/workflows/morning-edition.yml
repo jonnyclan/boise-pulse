@@ -1,15 +1,10 @@
 name: morning-edition
 
 on:
-  schedule:
-    # 3x/week cadence: Tuesday (Deep Dive), Thursday (Weekend Guide), Friday (Quick Hits).
-    # 13:00 UTC = 7:00 AM MDT  (summer)
-    # 14:00 UTC = 7:00 AM MST  (winter)
-    # Both fire — generate_magazine.py is idempotent (overwrites today's file),
-    # so whichever runs at the actual 7am MT produces the canonical issue.
-    # Cron DOW: Sun=0, Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6 → Tue,Thu,Fri = 2,4,5
-    - cron: "0 13 * * 2,4,5"
-    - cron: "0 14 * * 2,4,5"
+  # schedule:  PAUSED. Manual runs only for now.
+  #   Uncomment the two cron lines below to resume the 7am Tue/Thu/Fri auto-build.
+  #   - cron: "0 13 * * 2,4,5"
+  #   - cron: "0 14 * * 2,4,5"
   workflow_dispatch:
     inputs:
       force_issue_type:
