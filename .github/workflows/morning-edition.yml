@@ -1,0 +1,57 @@
+name: morning-edition
+
+on:
+  schedule:
+    # 3x/week cadence: Tuesday (Deep Dive), Thursday (Weekend Guide), Friday (Quick Hits).
+    # 13:00 UTC = 7:00 AM MDT  (summer)
+    # 14:00 UTC = 7:00 AM MST  (winter)
+    # Both fire — generate_magazine.py is idempotent (overwrites today's file),
+    # so whichever runs at the actual 7am MT produces the canonical issue.
+    # Cron DOW: Sun=0, Mon=1, Tue=2, Wed=3, Thu=4, Fri=5, Sat=6 → Tue,Thu,Fri = 2,4,5
+    - cron: "0 13 * * 2,4,5"
+    - cron: "0 14 * * 2,4,5"
+  workflow_dispatch:
+    inputs:
+      force_issue_type:
+        description: "Force issue type (deep_dive | weekend_guide | quick_hits). Leave blank for weekday default."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Generate today's issue
+        env:
+          USE_REAL_AI: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YOUTUBE_API_KEY:   ${{ secrets.YOUTUBE_API_KEY }}
+          REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          FORCE_ISSUE_TYPE:  ${{ inputs.force_issue_type }}
+        run: python generate_magazine.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "morning-edition-bot"
+          git config user.email "bot@boise-morning-edition.local"
+          git add magazines/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "issue: $(date -u +'%Y-%m-%d')"
+            git push
+          fi
