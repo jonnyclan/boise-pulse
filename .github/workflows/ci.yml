@@ -1,0 +1,38 @@
+name: ci
+
+# Quality gate: runs on every push to main and on every PR.
+# No secrets, no live AI, no network-critical steps — pure correctness checks
+# so a broken edit (syntax, schema drift, email-unsafe CSS) can never merge.
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+
+      - name: Byte-compile every module (catches syntax breaks)
+        run: python -m py_compile generate_magazine.py pre_publish_check.py src/*.py
+
+      - name: Unit tests (vitals, voice-lint, web + email renderers)
+        run: python -m pytest -q
+
+      - name: Mock build smoke (USE_REAL_AI=0, no secrets)
+        env:
+          USE_REAL_AI: "0"
+        run: python generate_magazine.py
